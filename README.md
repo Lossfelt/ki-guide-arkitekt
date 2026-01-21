@@ -235,7 +235,7 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
 
 **Microsoft Certified: [Agentic AI Business Solutions Architect (AB-100)](https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/)**
 
-BETA til november 2025. Den mest relevante sertifiseringen for KI-arkitekter, om enn noe utviklerorientert. Fokus på multi-agent orchestrated solutions, Azure OpenAI, Copilot Studio, Agent2Agent (A2A), Model Context Protocol (MCP). Krever at man har en del sertifiseringer fra før. Har man ikke det kan følgende være en god vei å komme dit:
+Generelt tilgjengelig siden januar 2026. Den mest relevante sertifiseringen for KI-arkitekter, om enn noe utviklerorientert. Fokus på multi-agent orchestrated solutions, Azure OpenAI, Copilot Studio, Agent2Agent (A2A), Model Context Protocol (MCP). Instruktørledet kurs AB-100 er nå tilgjengelig. Krever at man har en del sertifiseringer fra før. Har man ikke det kan følgende være en god vei å komme dit:
 
 1. [Course PL-900T00-A: Introduction to Microsoft Power Platform - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/courses/pl-900t00)
 
@@ -251,13 +251,17 @@ BETA til november 2025. Den mest relevante sertifiseringen for KI-arkitekter, om
 
 **[AWS Certified Generative AI Developer - Professional](https://aws.amazon.com/certification/certified-generative-ai-developer-professional/)**
 
-Beta registrering åpner 18. november 2025. Fokus på production-ready GenAI solutions, AWS Bedrock, vector databases, sofistikert prompt engineering, kostnadsoptimalisering, sikkerhet. 2+ år AWS-erfaring og 1+ år GenAI-erfaring anbefalt.
+Lansert november 2025 (eksamen AIP-C01). 205 minutter, 85 spørsmål. Fokus på production-ready GenAI solutions, AWS Bedrock, vector databases, kostnadsoptimalisering, sikkerhet. 2+ år AWS-erfaring og 1+ år GenAI-erfaring anbefalt. NB: AWS ML Specialty pensjoneres 31. mars 2026.
 
 
 
 **Google Cloud [Professional Cloud Architect](https://cloud.google.com/learn/certification/cloud-architect)**
 
-Oppdatert med utvidet GenAI-fokus. Inkluderer generativ KI-teknologi for forretningsverdi, case studies med GenAI-løsninger.  Gyldig 2 år.
+Oppdatert med utvidet GenAI-fokus. Inkluderer generativ KI-teknologi for forretningsverdi, case studies med GenAI-løsninger. $200 USD, 2 timer, gyldig 2 år. Bygger på en learning path, men ikke tydelig hvor teknisk man må være for å ta sertifiseringen.
+
+**Google Cloud [Generative AI Leader](https://cloud.google.com/learn/certification/generative-ai-leader)**
+
+Ny sertifisering rettet mot ledere og arkitekter, fokus på at man har forretningsforståelse og stiller ingen krav til teknis kunnskap. Bygger på en relativt kort, lederorientert learning path. Fokus på hvordan GenAI kan transformere virksomheter, Googles GenAI-tilbud, teknikker for å forbedre modelloutput, og forretningsstrategier. $99 USD, 90 minutter, gyldig år.
 
 
 
