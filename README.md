@@ -235,7 +235,7 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
 
 **Microsoft Certified: [Agentic AI Business Solutions Architect (AB-100)](https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/)**
 
-BETA til november 2025. Den mest relevante sertifiseringen for KI-arkitekter. Fokus på multi-agent orchestrated solutions, Azure OpenAI, Copilot Studio, Agent2Agent (A2A), Model Context Protocol (MCP). Krever at man har en del sertifiseringer fra før. Har man ikke det kan følgende være en god vei å komme dit:
+BETA til november 2025. Den mest relevante sertifiseringen for KI-arkitekter, om enn noe utviklerorientert. Fokus på multi-agent orchestrated solutions, Azure OpenAI, Copilot Studio, Agent2Agent (A2A), Model Context Protocol (MCP). Krever at man har en del sertifiseringer fra før. Har man ikke det kan følgende være en god vei å komme dit:
 
 1. [Course PL-900T00-A: Introduction to Microsoft Power Platform - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/courses/pl-900t00)
 
@@ -245,7 +245,7 @@ BETA til november 2025. Den mest relevante sertifiseringen for KI-arkitekter. Fo
 
 4. [Copilot Foundations AI-3018 - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/copilot-foundations/)
 
-5. [Microsoft Certified: Azure AI Engineer Associate - Certifications | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/)
+5. [Microsoft Certified: Azure AI Engineer Associate - Certifications | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/) - krever litt kompetanse om Python/C# eller lignende
    
    
 
@@ -336,5 +336,3 @@ Som norsk IT-konsulent har du tilgang til sterke lokale og nordiske KI-miljøer:
 Overgangen fra løsningsarkitekt til KI-arkitekt er ikke et fullstendig karriereskifte, men en naturlig evolusjon av din eksisterende kompetanse. Din forståelse av virksomhetsarkitektur, integrasjonsmønstre, informasjonsforvaltning og forretningsprosesser er en kritisk verdi som skiller deg fra rene ML-engineers eller data scientists.
 
 Generativ KI introduserer nye tekniske byggeklosser (LLM-er, embeddings, vector databases) og nye arkitektur-patterns (RAG, agentic systems, LLMOps), men grunnprinsippene for god arkitektur forblir: skalerbarhet, sikkerhet, vedlikeholdbarhet, kostnadseffektivitet og forretningsverdi.
-
-
