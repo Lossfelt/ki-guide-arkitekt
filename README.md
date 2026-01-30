@@ -16,7 +16,7 @@ Som KI-arkitekt for generativ KI er din primære oppgave å bygge bro mellom for
 
 Generativ KI skiller seg fundamentalt fra tradisjonell ML ved sin evne til å **generere nytt innhold** (tekst, bilder, kode) basert på naturlig språk, ikke bare klassifisere eller forutsi. Dette åpner for helt nye bruksområder: intelligente assistenter som forstår kontekst, dokumentgenerering, kodegenerering, semantisk søk, og **agentic systems** -- autonome KI-agenter som kan utføre komplekse oppgaver med minimal menneskelig involvering.
 
-For deg som arkitekt betyr dette nye arkitekturmønstre. RAG-arkitektur lar deg gi LLM-er tilgang til organisasjonens private data uten kostbar fine-tuning. Vector databases gjør semantisk søk mulig. Multi-agent orchestration lar flere spesialiserte KI-agenter samarbeide om komplekse oppgaver. Og prompt engineering blir et eget designlag i løsningen.
+For deg som arkitekt betyr dette nye arkitekturmønstre. RAG-arkitektur lar deg gi LLM-er tilgang til organisasjonens private data uten kostbar fine-tuning. Vector databases gjør semantisk søk mulig. Multi-agent orchestration lar flere spesialiserte KI-agenter samarbeide om komplekse oppgaver. Og context engineering blir et eget designlag i løsningen.
 
 # Hva KI-arkitekter IKKE gjør: Rolleklarhet i KI-økosystemet
 
