@@ -303,9 +303,7 @@ Som norsk IT-konsulent har du tilgang til sterke lokale og nordiske KI-miljøer:
 
 ## Norske konferanser og arrangementer
 
-- [**Nordic AI Summit**](https://nordicaisummit.no/) (Oslo, årlig) - Bridges AI engineers, startups, corporates.
-
-- [**AI Week**](https://aiindustryweek.no/) (Oslo, mars/april) - Gratis open house events.
+- [**The Nordic AI Union Summit 2026**](https://nordicaisummit.org/) (Oslo, 19. mars) - Where union leaders, experts, and changemakers come together to shape a worker-driven and democratic digital transformation of the future workplace.
 
 ## Nordiske initiativer
 
