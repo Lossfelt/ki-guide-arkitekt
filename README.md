@@ -215,12 +215,17 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
 
 - **[Hallucination]([What Are AI Hallucinations? | IBM](https://www.ibm.com/think/topics/ai-hallucinations)):** Når LLM genererer feilinformasjon presentert som sannhet. Kritisk problem i produksjon. Adresseres med RAG, fact-checking, og confidence scoring.
 
-- **Observability og Evaluation** - Observability er innsyn i hvordan LLM-kjeden faktisk oppfører seg (kvalitet, ytelse, kost, sikkerhet). Evaluation er å måle kvalitet før/etter produksjon med faste datasett og terskler, slik at endringer ikke forverrer resultatene.
+- **Observability og Evaluation:** Observability er innsyn i hvordan LLM-kjeden faktisk oppfører seg (kvalitet, ytelse, kost, sikkerhet). Evaluation er å måle kvalitet før/etter produksjon med faste datasett og terskler, slik at endringer ikke forverrer resultatene.
   
   - [LLM Observability Explained: Prevent Hallucinations, Manage Drift, Control Costs | Splunk](https://www.splunk.com/en_us/blog/learn/llm-observability.html) 
   
   - [LLM evaluation: a beginner's guide](https://www.evidentlyai.com/llm-guide/llm-evaluation) 
     
+ - **Memory i KI-systemer:** Kontekstvinduet fungerer som arbeidsminne (working memory), men er begrenset og flyktig. For produksjonsløsninger, spesielt agentiske systemer, må du designe for langtidsminne: episodisk minne (tidligere interaksjoner), semantisk minne (fakta og kunnskap, ofte via RAG), og proseduralt minne (lærte handlingsmønstre). Kjerneproblemet er å flytte riktig informasjon mellom kontekstvinduet og ekstern lagring til riktig tid.
+
+    - [What Is AI Agent Memory? (IBM)](https://www.ibm.com/think/topics/ai-agent-memory)
+
+    - [Making Sense of Memory in AI Agents (Leonie Monigatti)](https://www.leoniemonigatti.com/blog/memory-in-ai-agents.html)
     
 
 ### Anbefalte kurs
