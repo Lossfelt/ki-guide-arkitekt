@@ -42,9 +42,11 @@ Som klassisk løsningsarkitekt designer du systemarkitektur, integrasjonsmønstr
 
 Et av de viktigste arkitekturmønstrene du vil jobbe med er **Retrieval-Augmented Generation (RAG)**, som lar LLM-er bruke organisasjonens private data uten kostbar retraining. Du designer chunking-strategier (hvordan dele dokumenter i meningsfulle segmenter), velger vector database (Pinecone, Weaviate, Azure AI Search, eller PostgreSQL med pgvector), designer retrieval-strategier (semantic search, hybrid search, metadata filtering), og optimaliserer context window usage.
 
-## Prompt engineering og applikasjonslag
+## Context engineering og applikasjonslag
 
-Moderne KI-applikasjoner krever et **prompt engineering-lag** der du designer system prompts, few-shot examples, og prompt templates. Dette er ikke bare å skrive tekst -- det er å **designe grensesnitt** mellom brukere/systemer og KI-modeller.
+Generativ KI-applikasjoner krever **context engineering** -- det systematiske designet av all informasjon en LLM mottar for å løse en oppgave. Der prompt engineering fokuserer på å formulere gode instruksjoner, handler context engineering om å bygge hele informasjonsarkitekturen rundt modellen: system prompts, brukerinput, hentet kontekst (RAG), verktøytilgang, minne/historikk og strukturerte input/output-formater.
+
+Som arkitekt designer du hvordan disse komponentene settes sammen, slik at modellen får riktig kontekst til riktig tid -- uavhengig av hvem som bruker systemet. Prompt engineering er fortsatt en viktig deldisiplin, men context engineering er det overordnede designlaget.
 
 ## Agentic systems og multi-agent orchestration
 
@@ -97,9 +99,8 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 - [**OWASP Top 10 for LLM Applications 2025**](https://genai.owasp.org/llm-top-10/) - Introduksjon til sikkerhetsrisikoer spesielt for LLM-er. 2025-versjonen inkluderer nye kategorier som "Vector and Embedding Weaknesses" og "System Prompt Leakage". Litt tungt formulert og noe repetetivt.
 
 - [**AI Act** | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) - Introduksjon til AI Act, konsis og fin.
-
-
-
+  
+  
 
 - Bonus: [**AI Fundamentals Skill Track**](https://www.datacamp.com/tracks/ai-fundamentals) (DataCamp) - Strukturert læringsbane med interaktive øvelser. Dekker ChatGPT, LLM-konsepter, GenAI-konsepter og KI-etikk. Praktisk og hands-on.
 
@@ -140,13 +141,15 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
   
   - [What is a Vector Database?](https://www.pinecone.io/learn/vector-database/)
 
-- **Prompt engineering:** Systematisk design av inputs til LLM-er for å få ønskede outputs. Et eget designlag i KI-applikasjoner.
+- **Context engineering:** Systematisk design av all kontekst en LLM mottar -- instruksjoner, hentet data (RAG), verktøy, minne og strukturerte formater for input/output -- for å løse oppgaver pålitelig. Prompt engineering (utforming av selve instruksjonene) er en del av dette. Gartner erklærte i 2025 at context engineering erstatter prompt engineering som primært designfokus for KI-systemer.
   
-  - [Prompt engineering guide 1](https://www.promptingguide.ai/) (**evt bytte ut med context-engineering?**)
+  - [Context Engineering Guide](https://www.promptingguide.ai/guides/context-engineering-guide)
   
-  - [Prompt Engineering Guide 2](https://learnprompting.org/docs/introduction)
+  - [Context engineering: Why it's Replacing Prompt Engineering (Gartner)](https://www.gartner.com/en/articles/context-engineering)
   
-  - [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/information)
+  - [The New Skill in AI is Not Prompting, It's Context Engineering (Philipp Schmid)](https://www.philschmid.de/context-engineering)
+  
+  - [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/information) -- fortsatt nyttig for å forstå prompt-teknikker som deldisiplin
 
 - [Cross-encoding](https://sbert.net/examples/cross_encoder/applications/README.html) og [reranking](https://docs.cohere.com/docs/rerank-overview)
 
