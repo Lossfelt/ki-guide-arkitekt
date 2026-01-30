@@ -52,6 +52,12 @@ Som arkitekt designer du hvordan disse komponentene settes sammen, slik at model
 
 **Agentisk KI** representerer neste generasjon KI-systemer: autonome agenter som kan planlegge, bruke verktøy, og utføre komplekse oppgaver. Som arkitekt designer du agent-arkitekturer: Hvilke verktøy/API-er skal agenten ha tilgang til? Hvordan orkestrerer du flere spesialiserte agenter (research agent, writing agent, code agent) som samarbeider om en oppgave?
 
+## Model Context Protocol (MCP) og interoperabilitet
+
+Agentiske KI-systemer trenger en standardisert måte å koble seg til verktøy, datakilder og andre tjenester. **Model Context Protocol (MCP)** er en åpen standard (opprinnelig fra Anthropic, november 2024) som definerer hvordan LLM-er kommuniserer med eksterne systemer. Det blir ofte beskrevet som "USB-C for KI". MCP er i desember 2025 donert til **Agentic AI Foundation** under Linux Foundation, med Anthropic, OpenAI og Block som medgrunnleggere og støtte fra Google, Microsoft og AWS.
+
+Som arkitekt er MCP relevant fordi det gir deg et standardisert integrasjonsmønster: i stedet for å bygge skreddersydde koblinger mellom hver KI-modell og hvert verktøy, designer du MCP-servere som eksponerer kapabiliteter på en enhetlig måte. Dette forenkler multi-agent-arkitekturer og gjør det mulig å bytte modell-leverandør uten å skrive om integrasjonslaget.
+
 ## Observability og evaluering
 
 Du **initierer og eier eval/observability-rammeverket** (golden-set, SLOer, canary/A/B) selv om gjennomføringen ofte gjøres av teamet.
