@@ -179,7 +179,7 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
 
 - [**Improving Accuracy of LLM Applications** - DeepLearning.AI](https://www.deeplearning.ai/short-courses/improving-accuracy-of-llm-applications/)
 
-- Bonus: **[LangChain for LLM Application Development]([LangChain for LLM Application Development - DeepLearning.AI](https://learn.deeplearning.ai/courses/langchain/information))** - Lær det mest brukte framework for LLM-applikasjoner.
+- Bonus: **[LangChain for LLM Application Development]([LangChain for LLM Application Development - DeepLearning.AI](https://learn.deeplearning.ai/courses/langchain/information))** - Lær det mest brukte framework for LLM-applikasjoner. Merk: For agentiske systemer har LangGraph (bygget på LangChain) i stor grad overtatt som foretrukket rammeverk.
   
   
 
