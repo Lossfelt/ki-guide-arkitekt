@@ -94,7 +94,7 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 
 - [**Elements of AI**](https://www.elementsofai.com/) (NTNU lagde norsk versjon, opprinnelig fra Universitetet i Helsinki og MinnaLearn) - Gratis online kurs på norsk, 5 sesjoner (40 timer totalt). Perfekt for norsk kontekst, gir sertifikat fra NTNU. Dekker KI-grunnlag, etikk og samfunnspåvirkning.
 
-- [**OWASP Top 10 for LLM Applications 2025**](https://genai.owasp.org/llm-top-10/) - Nyttig introduksjon til sikkerhetsrisikoer spesielt for LLM-er. 2025-versjonen inkluderer nye kategorier som "Vector and Embedding Weaknesses" og "System Prompt Leakage".
+- [**OWASP Top 10 for LLM Applications 2025**](https://genai.owasp.org/llm-top-10/) - Introduksjon til sikkerhetsrisikoer spesielt for LLM-er. 2025-versjonen inkluderer nye kategorier som "Vector and Embedding Weaknesses" og "System Prompt Leakage". Litt tungt formulert og noe repetetivt.
 
 - [**AI Act** | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) - Introduksjon til AI Act, konsis og fin.
 
