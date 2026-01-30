@@ -78,7 +78,7 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 
 - [**Tokens**](https://cloud.google.com/vertex-ai/generative-ai/docs/glossary-genai#token): Grunnenheter som LLM-er prosesserer. En token er ca. 4 karakterer på engelsk, 2-3 på norsk. Viktig for kostnadsstyring (pricing er per token) og context window-begrensninger.
 
-- [**Context window**](https://cloud.google.com/vertex-ai/generative-ai/docs/glossary-genai#context_window): Maksimum antall tokens en LLM kan prosessere samtidig (input + output). OpenAI GPT-5 (reasoning): ~400K,  Google Gemini (API): 2M (Pro), 1M (Flash),  Anthropic Claude: 200K vanlig, opp til 1M i enterprise/Vertex/Bedrock. Kritisk arkitektur-constraint.
+- [**Context window**](https://cloud.google.com/vertex-ai/generative-ai/docs/glossary-genai#context_window): Maksimum antall tokens en LLM kan prosessere samtidig (input + output). OpenAI GPT-5/5.2: ~400K, Google Gemini 3: 1M (Pro), 200K (Flash), Anthropic Claude: 200K (standard), utvidet opptil 1M for utvalgte modeller. Kritisk arkitektur-constraint.
 
 - **[Foundation models](https://cloud.google.com/vertex-ai/generative-ai/docs/glossary-genai#foundation_model):** Store, generelle KI-modeller trent på brede datasett som kan fine-tunes eller tilpasses til spesifikke oppgaver. Basis for moderne GenAI-applikasjoner.
 
@@ -98,9 +98,8 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 
 - [**AI Act** | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) - Introduksjon til AI Act, konsis og fin.
 
-- ~~[**GenAI: Data Privacy and Protection**](https://www.coursera.org/learn/gen-ai-for-data-privacy--protection) - Kort kurs om KI og personvern (***Kurset er litt rart, har sendt en forespørsel om review, ikke ta kurset ennå***)~~
-  
-  
+
+
 
 - Bonus: [**AI Fundamentals Skill Track**](https://www.datacamp.com/tracks/ai-fundamentals) (DataCamp) - Strukturert læringsbane med interaktive øvelser. Dekker ChatGPT, LLM-konsepter, GenAI-konsepter og KI-etikk. Praktisk og hands-on.
 
