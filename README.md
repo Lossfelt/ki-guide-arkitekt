@@ -226,7 +226,8 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
     - [What Is AI Agent Memory? (IBM)](https://www.ibm.com/think/topics/ai-agent-memory)
 
     - [Making Sense of Memory in AI Agents (Leonie Monigatti)](https://www.leoniemonigatti.com/blog/memory-in-ai-agents.html)
-    
+
+    En pragmatisk tilnærming er å bruke filsystemet direkte, med feks markdown- eller CSV-filer som agenten leser og skriver til. [Benchmarking fra Letta](https://www.letta.com/blog/benchmarking-ai-agent-memory) viser at filbasert memory (74%) kan overgå mer komplekse løsninger som grafbaserte systemer (68.5%), fordi LLM-er er godt trent på filoperasjoner. Claude Code sin [CLAUDE.md](https://code.claude.com/docs/en/memory) er et produksjonseksempel på dette mønsteret. For mange bruksscenarier er filsystemet tilstrekkelig som langtidsminne, uten behov for vektordatabaser eller spesialisert infrastruktur.
 
 ### Anbefalte kurs
 
