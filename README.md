@@ -220,13 +220,13 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
   - [LLM Observability Explained: Prevent Hallucinations, Manage Drift, Control Costs | Splunk](https://www.splunk.com/en_us/blog/learn/llm-observability.html) 
   
   - [LLM evaluation: a beginner's guide](https://www.evidentlyai.com/llm-guide/llm-evaluation) 
+  
+  - **Memory i KI-systemer:** Kontekstvinduet fungerer som arbeidsminne (working memory), men er begrenset og flyktig. For produksjonsløsninger, spesielt agentiske systemer, må du designe for langtidsminne: episodisk minne (tidligere interaksjoner), semantisk minne (fakta og kunnskap, ofte via RAG), og proseduralt minne (lærte handlingsmønstre). Kjerneproblemet er å flytte riktig informasjon mellom kontekstvinduet og ekstern lagring til riktig tid.
     
- - **Memory i KI-systemer:** Kontekstvinduet fungerer som arbeidsminne (working memory), men er begrenset og flyktig. For produksjonsløsninger, spesielt agentiske systemer, må du designe for langtidsminne: episodisk minne (tidligere interaksjoner), semantisk minne (fakta og kunnskap, ofte via RAG), og proseduralt minne (lærte handlingsmønstre). Kjerneproblemet er å flytte riktig informasjon mellom kontekstvinduet og ekstern lagring til riktig tid.
-
     - [What Is AI Agent Memory? (IBM)](https://www.ibm.com/think/topics/ai-agent-memory)
-
+    
     - [Making Sense of Memory in AI Agents (Leonie Monigatti)](https://www.leoniemonigatti.com/blog/memory-in-ai-agents.html)
-
+    
     En pragmatisk tilnærming er å bruke filsystemet direkte, med feks markdown- eller CSV-filer som agenten leser og skriver til. [Benchmarking fra Letta](https://www.letta.com/blog/benchmarking-ai-agent-memory) viser at filbasert memory (74%) kan overgå mer komplekse løsninger som grafbaserte systemer (68.5%), fordi LLM-er er godt trent på filoperasjoner. Claude Code sin [CLAUDE.md](https://code.claude.com/docs/en/memory) er et produksjonseksempel på dette mønsteret. For mange bruksscenarier er filsystemet tilstrekkelig som langtidsminne, uten behov for vektordatabaser eller spesialisert infrastruktur.
 
 ### Anbefalte kurs
@@ -290,6 +290,64 @@ Ny sertifisering rettet mot ledere og arkitekter, fokus på at man har forretnin
 ---
 
 
+
+# Holde seg oppdatert i et felt som endrer seg raskt
+
+Generativ KI utvikler seg i et tempo som gjør at kunnskap kan bli utdatert i løpet av kort tid. Som KI-arkitekt bør du ha en bevisst strategi for å holde deg oppdatert, uten at det tar over arbeidsdagen. Målet er ikke å vite alt, men å fange opp endringer som påvirker arkitekturbeslutningene dine: nye arkitekturmønstre, endringer i plattformtjenester, nye verktøy og rammeverk, og regulatoriske endringer.
+
+## Praktisk strategi
+
+**Velg 2-3 faste kilder og vær disiplinert.** Det er bedre å følge noen få kilder konsekvent enn å abonnere på alt og drukne i informasjon. Sett av en fast tid, for eksempel 15 minutter med morgenkaffen, og hold deg til det.
+
+**Fokuser på det som er relevant for din rolle.** Du trenger ikke følge hvert benchmark-resultat eller hvert nye white paper. Som arkitekt bør du prioritere nye arkitekturmønstre, endringer i plattformtjenester du bruker, nye verktøy og rammeverk som påvirker løsningsdesign, og regulatoriske endringer.
+
+**Bruk KI-verktøy til å holde deg oppdatert.** KI-verktøy er selv en effektiv måte å holde tritt med KI-utviklingen. Bruk LLM-er til å oppsummere lange artikler eller papers, forklare nye konsepter, eller gi deg en oversikt over hva som har skjedd den siste uken innen et spesifikt tema.
+
+**Delta i fagmiljøer.** Uformelle samtaler med kolleger og fagfeller er ofte den mest effektive måten å fange opp viktige trender. Delta på meetups (se [Norske og nordiske ressurser](#norske-og-nordiske-ressurser)), interne faggrupper, eller online communities.
+
+## Anbefalte kilder
+
+### Nyhetsbrev
+
+- **[TLDR AI](https://tldr.tech/ai)** -- Daglig, kort oppsummering av de viktigste AI-nyhetene. God balanse mellom forskning, industri og verktøy.
+
+- **[The Batch](https://www.deeplearning.ai/the-batch/)** (Andrew Ng / DeepLearning.AI) -- Ukentlig. Godt kuratert med Ng sine perspektiver.
+
+- **[Transformer | Shakeel Hashim](https://www.transformernews.ai/)** -- USA-fokusert nyhetsbrev om teknologi, politikk, økonomi, m.m..
+
+- **[Ben's Bites](https://bensbites.com/)** -- Oppdateringer om AI-verktøy og -nyheter.
+
+### Blogger og enkeltpersoner å følge
+
+- **[Simon Willison](https://simonwillison.net/)** -- En av de beste kildene for praktisk LLM-utvikling. Tester og dokumenterer nye verktøy og teknikker grundig.
+
+- **[Ethan Mollick](https://www.oneusefulthing.org/)** (One Useful Thing) -- Professor ved Wharton. Skriver om praktisk bruk av KI med et forretnings- og samfunnsperspektiv. Aktiv på LinkedIn.
+
+### Podcaster
+
+- **[Latent Space](https://www.latent.space/podcast)** -- Teknisk orientert. Gode intervjuer med folk som bygger KI-systemer i praksis.
+
+- **[Practical AI](https://changelog.com/practicalai)** (Changelog) -- Praktisk vinkling, relevant for arkitekter.
+
+- **[Dwarkesh Podcast | Dwarkesh Patel | Substack](https://www.dwarkesh.com/)** -- Mange intervjuer med folk i forskningsfronten av AI.
+
+### Forskning uten å drukne
+
+- **[Hugging Face Daily Papers](https://huggingface.co/papers)** -- Kuratert utvalg av viktige papers, med oppsummeringer.
+
+### Plattformleverandørenes blogger
+
+Hold øye med oppdateringer fra plattformene du bruker i prosjektene dine:
+
+- [Microsoft AI Blog](https://blogs.microsoft.com/ai/)
+- [AWS Machine Learning Blog](https://aws.amazon.com/blogs/machine-learning/)
+- [Google AI Blog](https://blog.google/technology/ai/)
+- [Anthropic Blog](https://www.anthropic.com/news)
+- [OpenAI Blog](https://openai.com/blog)
+  
+  
+
+---
 
 
 
