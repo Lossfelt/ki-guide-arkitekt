@@ -28,7 +28,28 @@ En kritisk del av å forstå KI-arkitektrollen er å vite **hvor ditt ansvar slu
 
 **DevOps/MLOps engineers** fokuserer på CI/CD for ML-modeller, infrastruktur, containerisering, overvåking og drift. De implementerer deployment-pipelines og sikrer operasjonell stabilitet. **Du koder ikke deployment-scripts eller setter opp Kubernetes-clustere** -- men du definerer **LLMOps-krav**, skalerbarhetsbehov, overvåkingsbehov og velger deployment-arkitektur (cloud vs. on-prem, serverless vs. containere).
 
+**Utviklere** bygger applikasjonslaget som bruker KI-tjenestene: API-er, brukergrensesnitt, integrasjoner mot LLM-er, og implementerer agenter og verktøy. De skriver kode for prompt templates, feilhåndtering og retry-logikk. **Du skriver ikke produksjonskoden** -- men du designer **integrasjonsmønstre**, velger rammeverk (LangChain, LangGraph), definerer context engineering-strategi og spesifiserer hvordan KI-komponenter skal kobles sammen.
+
 **Din rolle som KI-arkitekt** er å **orkestrere** disse spesialistene, designe helhetlige løsninger som kombinerer KI-komponenter med eksisterende systemer, ta teknologivalg, og sikre at arkitekturen støtter både tekniske og forretningsmessige mål. Du er ikke spesialist på alle områder, men **generalist med dyp forståelse** av hvordan KI-komponenter passer inn i virksomhetsarkitektur.
+
+## Oversikt: Hvem eier hva?
+
+Tabellen under viser typisk ansvarsfordeling i KI-prosjekter og hva du som KI-arkitekt bidrar med i hver oppgave.
+
+| Oppgave | Eier | KI-arkitektens bidrag |
+|---------|------|----------------------|
+| Velge LLM og tilnærming (RAG, fine-tuning, agenter) | KI-arkitekt | Eier beslutningen |
+| Designe RAG-arkitektur (chunking, retrieval, reranking) | KI-arkitekt | Eier designet |
+| Definere context engineering-strategi | KI-arkitekt | Eier strategien |
+| Velge vector database og embedding-modell | KI-arkitekt | Eier beslutningen |
+| Definere evalueringsrammeverk og SLO-er | KI-arkitekt | Eier kravene |
+| Implementere applikasjonslag og API-er | Utvikler | Definerer integrasjonsmønstre og kontrakter |
+| Kode prompt templates og LLM-kall | Utvikler | Definerer strategi og retningslinjer |
+| Bygge agenter og verktøy | Utvikler | Designer agent-arkitektur og verktøytilgang |
+| Fine-tune og eksperimentere med modeller | Data Scientist | Definerer krav, evaluerer resultater |
+| Bygge datapipelines for KI | Data Engineer | Spesifiserer dataformat, chunking, metadata |
+| Sette opp deployment og CI/CD | MLOps/DevOps | Definerer skalerbarhet- og overvåkingskrav |
+| Drifte og overvåke KI-systemer i produksjon | MLOps/DevOps | Definerer SLO-er og alarmer |
 
 # Typiske oppgaver for en KI-arkitekt
 
