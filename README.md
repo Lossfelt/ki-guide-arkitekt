@@ -12,6 +12,8 @@ Som KI-arkitekt for generativ KI er din primære oppgave å bygge bro mellom for
 
 **Din unike verdi** ligger i evnen til å se helheten: Du forstår eksisterende systemlandskap, integrasjonsmønstre og informasjonsflyt, og kan nå legge til KI-kapabiliteter som en integrert del av virksomhetsarkitekturen -- ikke bare som isolerte eksperimenter. Du designer for produksjon fra dag én, med tanke på skalerbarhet, vedlikehold og total eierkostnad.
 
+**En kritisk del av rollen er å utfordre behovet.** Når kunden vil ha "noe med KI", er din jobb å stille de vanskelige spørsmålene: Trenger dere egentlig generativ KI, eller er dette hype-drevet? Kanskje en enkel workflow-automatisering eller regelbasert løsning løser problemet bedre, billigere og mer forutsigbart. Hvis generativ KI faktisk er ønskelig -- er det verdifullt nok til å rettferdiggjøre kostnad og kompleksitet? Er det trygt gitt dataene som skal brukes? Og selv om svaret er ja: kanskje et enkelt RAG-oppsett eller en API-integrasjon er tilstrekkelig, uten behov for komplekse multi-agent-arkitekturer. Den beste KI-løsningen er ofte den enkleste som faktisk løser problemet.
+
 ## Når generativ KI endrer spillereglene
 
 Generativ KI skiller seg fundamentalt fra tradisjonell ML ved sin evne til å **generere nytt innhold** (tekst, bilder, kode) basert på naturlig språk, ikke bare klassifisere eller forutsi. Dette åpner for helt nye bruksområder: intelligente assistenter som forstår kontekst, dokumentgenerering, kodegenerering, semantisk søk, og **agentic systems** -- autonome KI-agenter som kan utføre komplekse oppgaver med minimal menneskelig involvering.
@@ -36,20 +38,20 @@ En kritisk del av å forstå KI-arkitektrollen er å vite **hvor ditt ansvar slu
 
 Tabellen under viser typisk ansvarsfordeling i KI-prosjekter og hva du som KI-arkitekt bidrar med i hver oppgave.
 
-| Oppgave | Eier | KI-arkitektens bidrag |
-|---------|------|----------------------|
-| Velge LLM og tilnærming (RAG, fine-tuning, agenter) | KI-arkitekt | Eier beslutningen |
-| Designe RAG-arkitektur (chunking, retrieval, reranking) | KI-arkitekt | Eier designet |
-| Definere context engineering-strategi | KI-arkitekt | Eier strategien |
-| Velge vector database og embedding-modell | KI-arkitekt | Eier beslutningen |
-| Definere evalueringsrammeverk og SLO-er | KI-arkitekt | Eier kravene |
-| Implementere applikasjonslag og API-er | Utvikler | Definerer integrasjonsmønstre og kontrakter |
-| Kode prompt templates og LLM-kall | Utvikler | Definerer strategi og retningslinjer |
-| Bygge agenter og verktøy | Utvikler | Designer agent-arkitektur og verktøytilgang |
-| Fine-tune og eksperimentere med modeller | Data Scientist | Definerer krav, evaluerer resultater |
-| Bygge datapipelines for KI | Data Engineer | Spesifiserer dataformat, chunking, metadata |
-| Sette opp deployment og CI/CD | MLOps/DevOps | Definerer skalerbarhet- og overvåkingskrav |
-| Drifte og overvåke KI-systemer i produksjon | MLOps/DevOps | Definerer SLO-er og alarmer |
+| Oppgave                                                 | Eier           | KI-arkitektens bidrag                       |
+| ------------------------------------------------------- | -------------- | ------------------------------------------- |
+| Velge LLM og tilnærming (RAG, fine-tuning, agenter)     | KI-arkitekt    | Eier beslutningen                           |
+| Designe RAG-arkitektur (chunking, retrieval, reranking) | KI-arkitekt    | Eier designet                               |
+| Definere context engineering-strategi                   | KI-arkitekt    | Eier strategien                             |
+| Velge vector database og embedding-modell               | KI-arkitekt    | Eier beslutningen                           |
+| Definere evalueringsrammeverk og SLO-er                 | KI-arkitekt    | Eier kravene                                |
+| Implementere applikasjonslag og API-er                  | Utvikler       | Definerer integrasjonsmønstre og kontrakter |
+| Kode prompt templates og LLM-kall                       | Utvikler       | Definerer strategi og retningslinjer        |
+| Bygge agenter og verktøy                                | Utvikler       | Designer agent-arkitektur og verktøytilgang |
+| Fine-tune og eksperimentere med modeller                | Data Scientist | Definerer krav, evaluerer resultater        |
+| Bygge datapipelines for KI                              | Data Engineer  | Spesifiserer dataformat, chunking, metadata |
+| Sette opp deployment og CI/CD                           | MLOps/DevOps   | Definerer skalerbarhet- og overvåkingskrav  |
+| Drifte og overvåke KI-systemer i produksjon             | MLOps/DevOps   | Definerer SLO-er og alarmer                 |
 
 # Typiske oppgaver for en KI-arkitekt
 
@@ -136,6 +138,8 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 - Bonus: [Beginner: Introduction to Generative AI | Google Skills](https://www.skills.google/paths/118) - Hvis du ønsker et Google-fokusert introduksjonskurs.
 
 - Bonus: [AWS Skill Builder](https://skillbuilder.aws/learn/ZEVZZ1D4AS/introduction-to-generative-ai--art-of-the-possible/Y7MTGJCW1U) - Hvis du ønsker et Amazon-fokusert introduksjonskurs.
+
+- Bonus: [Oracle Generative AI Professional (2025)](https://mylearn.oracle.com/ou/learning-path/become-a-oci-generative-ai-professional/147863) - Hvis du ønsker et Oracle-fokusert introduksjonskurs.
 
 - Bonus: [Building AI](https://buildingai.elementsofai.com/) - Hvis du ønsker dypere forståelse av algoritmene bak maskinlæring
   
