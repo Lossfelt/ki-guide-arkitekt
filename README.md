@@ -95,7 +95,7 @@ Du **initierer og eier eval/observability-rammeverket** (golden-set, SLOer, cana
 
 Overgangen til KI-arkitekt krever målrettet kompetansebygging innen tekniske KI-konsepter, verktøy og metoder. Denne planen gir deg en strukturert vei fra grunnleggende forståelse til produksjonsklar ekspertise.
 
-## Fase 1: Grunnleggende KI-forståelse (4-6 uker)
+## Fase 1: Grunnleggende KI-forståelse
 
 ### Opplæringsmål
 
@@ -147,7 +147,7 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 
 ---
 
-## Fase 2: Teknisk fordypning og hands-on (6-8 uker)
+## Fase 2: Teknisk fordypning og hands-on
 
 ### Opplæringsmål
 
@@ -212,7 +212,7 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
 
 
 
-## Fase 3: Avansert arkitektur og produksjon (2-4 måneder)
+## Fase 3: Avansert arkitektur og produksjon
 
 ### Opplæringsmål
 
