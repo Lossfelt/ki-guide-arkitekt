@@ -161,8 +161,6 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
   
   - [What Is Retrieval-Augmented Generation aka RAG | NVIDIA Blogs](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/)
   
-  - [What is RAG (Retrieval Augmented Generation)? | IBM](https://www.ibm.com/think/topics/retrieval-augmented-generation)
-
 - **Embeddings/Vector embeddings:** Numerisk representasjon av data (tekst, bilder) som fanger semantisk mening. Grunnlag for semantisk søk og RAG.
   
   - [Vector embeddings explained](https://weaviate.io/blog/vector-embeddings-explained)
