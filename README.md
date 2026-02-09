@@ -163,11 +163,11 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
 
 - **Embeddings/Vector embeddings:** Numerisk representasjon av data (tekst, bilder) som fanger semantisk mening. Grunnlag for semantisk søk og RAG.
   
-  - [Vector embeddings explained](https://weaviate.io/blog/vector-embeddings-explained)
+  - [Vector embeddings explained](https://weaviate.io/blog/vector-embeddings-explained) - bra beskrivelse
 
 - **Vector database / Søk med vektorindeks:** Spesialisert database optimalisert for lagring og søk av vektorembeddings. Eksempler: Pinecone, Weaviate, Qdrant, Azure AI Search.
   
-  - [What is a Vector Database?](https://www.pinecone.io/learn/vector-database/)
+  - [What is a Vector Database?](https://www.pinecone.io/learn/vector-database/) - litt teknisk, for spesielt interesserte.
 
 - **Context engineering:** Systematisk design av all kontekst en LLM mottar -- instruksjoner, hentet data (RAG), verktøy, minne og strukturerte formater for input/output -- for å løse oppgaver pålitelig. Prompt engineering (utforming av selve instruksjonene) er en del av dette. Gartner erklærte i 2025 at context engineering erstatter prompt engineering som primært designfokus for KI-systemer.
   
