@@ -160,11 +160,10 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
   - [What is RAG? - Retrieval-Augmented Generation AI Explained - AWS](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
   
   - [What Is Retrieval-Augmented Generation aka RAG | NVIDIA Blogs](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/)
-  
+
 - **Embeddings/Vector embeddings:** Numerisk representasjon av data (tekst, bilder) som fanger semantisk mening. Grunnlag for semantisk søk og RAG.
   
   - [Vector embeddings explained](https://weaviate.io/blog/vector-embeddings-explained)
-  - [Hybrid search - Azure AI Search | Microsoft Learn](https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview)
 
 - **Vector database / Søk med vektorindeks:** Spesialisert database optimalisert for lagring og søk av vektorembeddings. Eksempler: Pinecone, Weaviate, Qdrant, Azure AI Search.
   
