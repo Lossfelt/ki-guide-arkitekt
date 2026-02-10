@@ -171,11 +171,11 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
 
 - **Context engineering:** Systematisk design av all kontekst en LLM mottar -- instruksjoner, hentet data (RAG), verktøy, minne og strukturerte formater for input/output -- for å løse oppgaver pålitelig. Prompt engineering (utforming av selve instruksjonene) er en del av dette. Gartner erklærte i 2025 at context engineering erstatter prompt engineering som primært designfokus for KI-systemer.
   
-  - [Context Engineering Guide](https://www.promptingguide.ai/guides/context-engineering-guide)
+  - [The New Skill in AI is Not Prompting, It's Context Engineering (Philipp Schmid)](https://www.philschmid.de/context-engineering) - Konsis beskrivelse av Context Engineering og viktigheten av det for agentisk AI
   
-  - [Context engineering: Why it's Replacing Prompt Engineering (Gartner)](https://www.gartner.com/en/articles/context-engineering)
+  - [Context Engineering Guide](https://www.promptingguide.ai/guides/context-engineering-guide) - OK introduksjon til konseptet Context Engineering.
   
-  - [The New Skill in AI is Not Prompting, It's Context Engineering (Philipp Schmid)](https://www.philschmid.de/context-engineering)
+  - [Context engineering: Why it's Replacing Prompt Engineering (Gartner)](https://www.gartner.com/en/articles/context-engineering) - overordnet beskrivelse av Context Engineering, litt "Gartner-buzz".
   
   - [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/information) -- fortsatt nyttig for å forstå prompt-teknikker som deldisiplin
 
