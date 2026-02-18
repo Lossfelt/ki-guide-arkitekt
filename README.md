@@ -159,7 +159,9 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
   
   - [What is RAG? - Retrieval-Augmented Generation AI Explained - AWS](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
   
-  - [What Is Retrieval-Augmented Generation aka RAG | NVIDIA Blogs](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/)
+  - [What Is Retrieval-Augmented Generation aka RAG | NVIDIA Blogs](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/) 
+  
+  - [Query Expansion in Enhancing Retrieval-Augmented Generation (RAG)](https://medium.com/@sahin.samia/query-expansion-in-enhancing-retrieval-augmented-generation-rag-d41153317383) 
 
 - **Embeddings/Vector embeddings:** Numerisk representasjon av data (tekst, bilder) som fanger semantisk mening. Grunnlag for semantisk søk og RAG.
   
@@ -178,8 +180,6 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
   - [Context engineering: Why it's Replacing Prompt Engineering (Gartner)](https://www.gartner.com/en/articles/context-engineering) - overordnet beskrivelse av Context Engineering, litt "Gartner-buzz".
   
   - [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/information) -- ganske enkel prompt-teknikk med fokus på grunnleggende bruk av chat-API
-
-- [Query expansion / multi-query](https://docs.langchain.com/oss/python/langchain/overview)
 
 - [Retrieval evaluation metrics](https://weaviate.io/blog/retrieval-evaluation-metrics)
 
