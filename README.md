@@ -179,8 +179,6 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
   
   - [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/information) -- ganske enkel prompt-teknikk med fokus på grunnleggende bruk av chat-API
 
-- [Cross-encoding](https://sbert.net/examples/cross_encoder/applications/README.html) og [reranking](https://docs.cohere.com/docs/rerank-overview)
-
 - [Query expansion / multi-query](https://docs.langchain.com/oss/python/langchain/overview)
 
 - [Retrieval evaluation metrics](https://weaviate.io/blog/retrieval-evaluation-metrics)
