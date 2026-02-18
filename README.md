@@ -177,7 +177,7 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
   
   - [Context engineering: Why it's Replacing Prompt Engineering (Gartner)](https://www.gartner.com/en/articles/context-engineering) - overordnet beskrivelse av Context Engineering, litt "Gartner-buzz".
   
-  - [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/information) -- fortsatt nyttig for å forstå prompt-teknikker som deldisiplin
+  - [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/information) -- ganske enkel prompt-teknikk med fokus på grunnleggende bruk av chat-API
 
 - [Cross-encoding](https://sbert.net/examples/cross_encoder/applications/README.html) og [reranking](https://docs.cohere.com/docs/rerank-overview)
 
