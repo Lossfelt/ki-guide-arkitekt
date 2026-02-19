@@ -162,6 +162,8 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
   - [What Is Retrieval-Augmented Generation aka RAG | NVIDIA Blogs](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/) 
   
   - [Query Expansion in Enhancing Retrieval-Augmented Generation (RAG)](https://medium.com/@sahin.samia/query-expansion-in-enhancing-retrieval-augmented-generation-rag-d41153317383) 
+  
+  - [Retrieval evaluation metrics](https://weaviate.io/blog/retrieval-evaluation-metrics) - beskrivelse av fem metoder for å evaluere hvor godt søkeresultater treffer. Litt vel teknisk.
 
 - **Embeddings/Vector embeddings:** Numerisk representasjon av data (tekst, bilder) som fanger semantisk mening. Grunnlag for semantisk søk og RAG.
   
@@ -181,15 +183,13 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
   
   - [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/information) -- ganske enkel prompt-teknikk med fokus på grunnleggende bruk av chat-API
 
-- [Retrieval evaluation metrics](https://weaviate.io/blog/retrieval-evaluation-metrics)
+- [LLM System Design and Model Selection](https://www.oreilly.com/radar/llm-system-design-and-model-selection/) - en fin gjennomgang av vurderingene man må ta når man velger type LLM. Har ikke de nyeste modellene.
 
-- [LLM System Design and Model Selection](https://www.oreilly.com/radar/llm-system-design-and-model-selection/) 
-
-- [How LLM Inference Works](https://arpitbhayani.me/blogs/how-llm-inference-works) - Kort og teknisk detaljert artikkel om hvordan coding/decoding, tokenization, etc gjøres under inference
+- [How LLM Inference Works](https://arpitbhayani.me/blogs/how-llm-inference-works) - Kort og teknisk detaljert artikkel om hvordan coding/decoding, tokenization, etc gjøres under inference.
 
 ### Anbefalte kurs:
 
-- [**Generative AI with Large Language Models**]([Generative AI with Large Language Models - DeepLearning.AI](https://learn.deeplearning.ai/courses/generative-ai-with-llms/information)) - DET mest omfattende kurset for arkitekter. \~11 timer. Dekker LLM lifecycle, transformer architecture, fine-tuning, RLHF, deployment. [Samme kurs hos Coursera](https://www.coursera.org/learn/generative-ai-with-llms)
+- [**Generative AI with Large Language Models**]([Generative AI with Large Language Models - DeepLearning.AI](https://learn.deeplearning.ai/courses/generative-ai-with-llms/information)) - DET mest omfattende kurset for arkitekter. \~11 timer. Dekker LLM lifecycle, transformer architecture, fine-tuning, RLHF, deployment. Noe knyttet til AWS. [Samme kurs hos Coursera](https://www.coursera.org/learn/generative-ai-with-llms)
 
 - **[Retrieval Augmented Generation (RAG)](https://www.deeplearning.ai/courses/retrieval-augmented-generation-rag/)** - Dedikert RAG-kurs. Kritisk for produksjonsløsninger.
 
@@ -199,7 +199,7 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
 
 - [**Improving Accuracy of LLM Applications** - DeepLearning.AI](https://www.deeplearning.ai/short-courses/improving-accuracy-of-llm-applications/)
 
-- Bonus: **[LangChain for LLM Application Development]([LangChain for LLM Application Development - DeepLearning.AI](https://learn.deeplearning.ai/courses/langchain/information))** - Lær det mest brukte framework for LLM-applikasjoner. Merk: For agentiske systemer har LangGraph (bygget på LangChain) i stor grad overtatt som foretrukket rammeverk.
+- Bonus: **[LangChain for LLM Application Development]([LangChain for LLM Application Development - DeepLearning.AI](https://learn.deeplearning.ai/courses/langchain/information))** - Lær det mest brukte framework for LLM-applikasjoner. Merk: For agentiske systemer har LangGraph (bygget på LangChain) og Deep Agents i stor grad overtatt som foretrukket rammeverk.
   
   
 
