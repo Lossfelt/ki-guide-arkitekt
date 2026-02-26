@@ -233,7 +233,7 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
 
 - **Observability og Evaluation:** Observability er innsyn i hvordan LLM-kjeden faktisk oppfører seg (kvalitet, ytelse, kost, sikkerhet). Evaluation er å måle kvalitet før/etter produksjon med faste datasett og terskler, slik at endringer ikke forverrer resultatene.
   
-  - [LLM Observability Explained: Prevent Hallucinations, Manage Drift, Control Costs | Splunk](https://www.splunk.com/en_us/blog/learn/llm-observability.html) 
+  - [LLM Observability Explained: Prevent Hallucinations, Manage Drift, Control Costs | Splunk](https://www.splunk.com/en_us/blog/learn/llm-observability.html) - God beskrivelse av hva det er og hvorfor det er viktig.
   
   - [LLM evaluation: a beginner's guide](https://www.evidentlyai.com/llm-guide/llm-evaluation) 
 
