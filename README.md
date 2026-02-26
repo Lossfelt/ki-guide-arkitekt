@@ -217,21 +217,15 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
 
 - **LLMOps (Large Language Model Operations):** Evolusjon av MLOps spesifikt for LLM-er. Inkluderer prompt management, model versioning, A/B testing, cost monitoring, output quality monitoring, og deployment pipelines.
   
-  - [LLMOps by Databricks](https://www.databricks.com/glossary/llmops)
-  
-  - [Understanding LLMOps: Weights and Biases](https://wandb.ai/site/articles/understanding-llmops-large-language-model-operations/)
-  
-  - [What is LLMOps?](https://lakefs.io/blog/llmops/)
+  - [Understanding LLMOps: Weights and Biases](https://wandb.ai/site/articles/understanding-llmops-large-language-model-operations/) - Litt repetisjon av hva LLM er, men en grei forklaring av hvorfor man må ha operativ struktur når man benytter LLM i applikasjoner.
 
 - **AI Agents/Agentic AI:** Autonome KI-systemer som kan planlegge, bruke verktøy, og utføre komplekse oppgaver med minimal menneskelig involvering. Representerer fremtidens KI-applikasjoner.
   
-  - [What are AI Agents? - AWS](https://aws.amazon.com/what-is/ai-agents/)
+  - [Introduction to Agents.pdf - Google Disk](https://drive.google.com/file/d/1C-HvqgxM7dj4G2kCQLnuMXi1fTpXRdpx/view) - **Veldig god artikkel, skal bli en serie** (Jeg tror dette kanskje er resten [5-Day-AI-Agents-Intensive-Course-Whitepaper](https://github.com/Vasu-uu/5-Day-AI-Agents-Intensive-Course-Whitepaper) )
   
-  - [What is agentic AI?](https://www.uipath.com/ai/agentic-ai)
-  
-  - [Introduction to Agents.pdf - Google Disk](https://drive.google.com/file/d/1C-HvqgxM7dj4G2kCQLnuMXi1fTpXRdpx/view) - **Veldig god artikkel, skal bli en serie**
+  - [What are AI Agents? - AWS](https://aws.amazon.com/what-is/ai-agents/) - OK beskrivelse av hva en agent er, men litt rare kategorier og noen misforståelser.
 
-- **[Multi-agent systems]([What is a Multi-Agent System? | IBM](https://www.ibm.com/think/topics/multiagent-system)):** Arkitektur der flere spesialiserte KI-agenter samarbeider om komplekse oppgaver. Frameworks: CrewAI, LangGraph, AutoGen.
+- **[Multi-agent systems](https://www.ibm.com/think/topics/multiagent-system):** Arkitektur der flere spesialiserte KI-agenter samarbeider om komplekse oppgaver. Frameworks: CrewAI, LangGraph, AutoGen.
 
 - [Hvordan bygge en OpenClaw kopi](https://x.com/dabit3/status/2021387483364151451) - Tutorial på å lage en agent med permanent minne, verktøy den kan bruke, tilgang via flere kanaler, og med schedulerte kall slik at den kan gjøre ting "autonomt". Gir en god forståelse av en grunnleggende personlig AI-assistent.
 
