@@ -187,6 +187,8 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
 
 - [How LLM Inference Works](https://arpitbhayani.me/blogs/how-llm-inference-works) - Kort og teknisk detaljert artikkel om hvordan coding/decoding, tokenization, etc gjøres under inference.
 
+- **[Hallucination](https://www.ibm.com/think/topics/ai-hallucinations):** Når LLM genererer feilinformasjon presentert som sannhet. Kritisk problem i produksjon. Adresseres med RAG, fact-checking, og confidence scoring.
+
 ### Anbefalte kurs:
 
 - [**Generative AI with Large Language Models**]([Generative AI with Large Language Models - DeepLearning.AI](https://learn.deeplearning.ai/courses/generative-ai-with-llms/information)) - DET mest omfattende kurset for arkitekter. \~11 timer. Dekker LLM lifecycle, transformer architecture, fine-tuning, RLHF, deployment. Noe knyttet til AWS. [Samme kurs hos Coursera](https://www.coursera.org/learn/generative-ai-with-llms)
@@ -228,8 +230,6 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
 - **[Multi-agent systems](https://www.ibm.com/think/topics/multiagent-system):** Arkitektur der flere spesialiserte KI-agenter samarbeider om komplekse oppgaver. Frameworks: CrewAI, LangGraph, AutoGen.
 
 - [Hvordan bygge en OpenClaw kopi](https://x.com/dabit3/status/2021387483364151451) - Tutorial på å lage en agent med permanent minne, verktøy den kan bruke, tilgang via flere kanaler, og med schedulerte kall slik at den kan gjøre ting "autonomt". Gir en god forståelse av en grunnleggende personlig AI-assistent.
-
-- **[Hallucination]([What Are AI Hallucinations? | IBM](https://www.ibm.com/think/topics/ai-hallucinations)):** Når LLM genererer feilinformasjon presentert som sannhet. Kritisk problem i produksjon. Adresseres med RAG, fact-checking, og confidence scoring.
 
 - **Observability og Evaluation:** Observability er innsyn i hvordan LLM-kjeden faktisk oppfører seg (kvalitet, ytelse, kost, sikkerhet). Evaluation er å måle kvalitet før/etter produksjon med faste datasett og terskler, slik at endringer ikke forverrer resultatene.
   
@@ -427,3 +427,5 @@ Som norsk IT-konsulent har du tilgang til sterke lokale og nordiske KI-miljøer:
 Overgangen fra løsningsarkitekt til KI-arkitekt er ikke et fullstendig karriereskifte, men en naturlig evolusjon av din eksisterende kompetanse. Din forståelse av virksomhetsarkitektur, integrasjonsmønstre, informasjonsforvaltning og forretningsprosesser er en kritisk verdi som skiller deg fra rene ML-engineers eller data scientists.
 
 Generativ KI introduserer nye tekniske byggeklosser (LLM-er, embeddings, vector databases) og nye arkitektur-patterns (RAG, agentic systems, LLMOps), men grunnprinsippene for god arkitektur forblir: skalerbarhet, sikkerhet, vedlikeholdbarhet, kostnadseffektivitet og forretningsverdi.
+
+
