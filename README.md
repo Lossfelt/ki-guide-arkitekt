@@ -235,15 +235,17 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
   
   - [LLM Observability Explained: Prevent Hallucinations, Manage Drift, Control Costs | Splunk](https://www.splunk.com/en_us/blog/learn/llm-observability.html) - God beskrivelse av hva det er og hvorfor det er viktig.
   
-  - [LLM evaluation: a beginner's guide](https://www.evidentlyai.com/llm-guide/llm-evaluation) 
+  - [LLM evaluation: a beginner's guide](https://www.evidentlyai.com/llm-guide/llm-evaluation) - Grundig og god beskrivelse av evaluering, fra utvikling til drift.
 
 - **Memory i KI-systemer:** Kontekstvinduet fungerer som arbeidsminne (working memory), men er begrenset og flyktig. For produksjonsløsninger, spesielt agentiske systemer, må du designe for langtidsminne: episodisk minne (tidligere interaksjoner), semantisk minne (fakta og kunnskap, ofte via RAG), og proseduralt minne (lærte handlingsmønstre). Kjerneproblemet er å flytte riktig informasjon mellom kontekstvinduet og ekstern lagring til riktig tid.
   
-  - [What Is AI Agent Memory? (IBM)](https://www.ibm.com/think/topics/ai-agent-memory)
+  - [What Is AI Agent Memory? (IBM)](https://www.ibm.com/think/topics/ai-agent-memory) - Kort oversikt over ulike typer agentisk minne.
   
-  - [Making Sense of Memory in AI Agents (Leonie Monigatti)](https://www.leoniemonigatti.com/blog/memory-in-ai-agents.html)
+  - [Making Sense of Memory in AI Agents (Leonie Monigatti)](https://www.leoniemonigatti.com/blog/memory-in-ai-agents.html) - God og pedagogisk forklaring av ulike måter å se på agentisk minne.
   
-  - [Design Patterns for Long-Term Memory in LLM-Powered Architectures (Serokell)](https://serokell.io/blog/design-patterns-for-long-term-memory-in-llm-powered-architectures) - sammenligner fire arkitekturmønstre for agent memory: MemGPT, OpenAI, Claude og AI Toolkits
+  - [Design Patterns for Long-Term Memory in LLM-Powered Architectures (Serokell)](https://serokell.io/blog/design-patterns-for-long-term-memory-in-llm-powered-architectures) - God sammenligning av fire arkitekturmønstre for agent memory: MemGPT, OpenAI, Claude og AI Toolkits
+  
+  - 
     En pragmatisk tilnærming er å bruke filsystemet direkte, med feks markdown- eller CSV-filer som agenten leser og skriver til. [Benchmarking fra Letta](https://www.letta.com/blog/benchmarking-ai-agent-memory) viser at filbasert memory (74%) kan overgå mer komplekse løsninger som grafbaserte systemer (68.5%), fordi LLM-er er godt trent på filoperasjoner. Claude Code sin [CLAUDE.md](https://code.claude.com/docs/en/memory) er et produksjonseksempel på dette mønsteret. For mange bruksscenarier er filsystemet tilstrekkelig som langtidsminne, uten behov for vektordatabaser eller spesialisert infrastruktur.
 
 ### Anbefalte kurs
@@ -427,5 +429,3 @@ Som norsk IT-konsulent har du tilgang til sterke lokale og nordiske KI-miljøer:
 Overgangen fra løsningsarkitekt til KI-arkitekt er ikke et fullstendig karriereskifte, men en naturlig evolusjon av din eksisterende kompetanse. Din forståelse av virksomhetsarkitektur, integrasjonsmønstre, informasjonsforvaltning og forretningsprosesser er en kritisk verdi som skiller deg fra rene ML-engineers eller data scientists.
 
 Generativ KI introduserer nye tekniske byggeklosser (LLM-er, embeddings, vector databases) og nye arkitektur-patterns (RAG, agentic systems, LLMOps), men grunnprinsippene for god arkitektur forblir: skalerbarhet, sikkerhet, vedlikeholdbarhet, kostnadseffektivitet og forretningsverdi.
-
-
