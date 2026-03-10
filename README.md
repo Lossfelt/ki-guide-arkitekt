@@ -191,7 +191,7 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
 
 ### Anbefalte kurs:
 
-- [**Generative AI with Large Language Models**]([Generative AI with Large Language Models - DeepLearning.AI](https://learn.deeplearning.ai/courses/generative-ai-with-llms/information)) - DET mest omfattende kurset for arkitekter. \~11 timer. Dekker LLM lifecycle, transformer architecture, fine-tuning, RLHF, deployment. Noe knyttet til AWS. [Samme kurs hos Coursera](https://www.coursera.org/learn/generative-ai-with-llms)
+- [**Generative AI with Large Language Models**]([Generative AI with Large Language Models - DeepLearning.AI](https://learn.deeplearning.ai/courses/generative-ai-with-llms/information)) - Omfattende kurset for bl.a. arkitekter på ca 11 timer. Dekker LLM lifecycle, transformer architecture, fine-tuning, RLHF, deployment. "Eldre" kurs uten nyere kunnskap enn 2022, men fortsatt bra. [Samme kurs hos Coursera](https://www.coursera.org/learn/generative-ai-with-llms) 
 
 - **[Retrieval Augmented Generation (RAG)](https://www.deeplearning.ai/courses/retrieval-augmented-generation-rag/)** - Dedikert RAG-kurs. Kritisk for produksjonsløsninger.
 
@@ -245,8 +245,7 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
   
   - [Design Patterns for Long-Term Memory in LLM-Powered Architectures (Serokell)](https://serokell.io/blog/design-patterns-for-long-term-memory-in-llm-powered-architectures) - God sammenligning av fire arkitekturmønstre for agent memory: MemGPT, OpenAI, Claude og AI Toolkits
   
-  - 
-    En pragmatisk tilnærming er å bruke filsystemet direkte, med feks markdown- eller CSV-filer som agenten leser og skriver til. [Benchmarking fra Letta](https://www.letta.com/blog/benchmarking-ai-agent-memory) viser at filbasert memory (74%) kan overgå mer komplekse løsninger som grafbaserte systemer (68.5%), fordi LLM-er er godt trent på filoperasjoner. Claude Code sin [CLAUDE.md](https://code.claude.com/docs/en/memory) er et produksjonseksempel på dette mønsteret. For mange bruksscenarier er filsystemet tilstrekkelig som langtidsminne, uten behov for vektordatabaser eller spesialisert infrastruktur.
+  - En pragmatisk tilnærming er å bruke filsystemet direkte, med feks markdown- eller CSV-filer som agenten leser og skriver til. [Benchmarking fra Letta](https://www.letta.com/blog/benchmarking-ai-agent-memory) viser at filbasert memory (74%) kan overgå mer komplekse løsninger som grafbaserte systemer (68.5%), fordi LLM-er er godt trent på filoperasjoner. Claude Code sin [CLAUDE.md](https://code.claude.com/docs/en/memory) er et produksjonseksempel på dette mønsteret. For mange bruksscenarier er filsystemet tilstrekkelig som langtidsminne, uten behov for vektordatabaser eller spesialisert infrastruktur.
 
 ### Anbefalte kurs
 
