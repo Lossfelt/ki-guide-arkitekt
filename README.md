@@ -201,7 +201,7 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
 
 - [**Improving Accuracy of LLM Applications** - DeepLearning.AI](https://www.deeplearning.ai/short-courses/improving-accuracy-of-llm-applications/)
 
-- Bonus: **[LangChain for LLM Application Development]([LangChain for LLM Application Development - DeepLearning.AI](https://learn.deeplearning.ai/courses/langchain/information))** - Lær det mest brukte framework for LLM-applikasjoner. Merk: For agentiske systemer har LangGraph (bygget på LangChain) og Deep Agents i stor grad overtatt som foretrukket rammeverk.
+- Bonus: [**LangChain for LLM Application Development**](https://learn.deeplearning.ai/courses/langchain/information) - Lær det mest brukte framework for LLM-applikasjoner. Merk: For agentiske systemer har LangGraph (bygget på LangChain) og Deep Agents i stor grad overtatt som foretrukket rammeverk.
   
   
 
@@ -249,9 +249,9 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
 
 ### Anbefalte kurs
 
-- **[Large Language Model Operations (LLMOps) Specialization](https://www.coursera.org/specializations/large-language-model-operations) (Duke University, Coursera)** - 6-kurs spesialisering spesifikt for LLMOps. Kritisk for produksjon.
+- **[Large Language Model Operations (LLMOps) Specialization](https://www.coursera.org/specializations/large-language-model-operations) (Duke University, Coursera)** - 6-kurs spesialisering spesifikt for LLMOps. Viktig for produksjon.
 
-- **[IBM RAG and Agentic AI Professional Certificate]([IBM RAG and Agentic AI: Build Next-Gen AI Systems Professional Certificate | Coursera](https://www.coursera.org/professional-certificates/ibm-rag-and-agentic-ai?utm_medium=sem&utm_source=bg&utm_campaign=b2c_emea_ibm-rag-and-agentic-ai_ibm_ftcof_professional-certificates_cx_dr_bau_bg_sem_pr_s1_en_m_x_25-07_x&campaignid=663494023&adgroupid=1257842655988702&device=c&keyword=ibm%20rag%20and%20agentic%20ai%20professional%20certificate&matchtype=e&network=o&devicemodel=&adposition=&creativeid=78615299628145&adgroup=b2c_emea_ibm-rag-and-agentic-ai_ibm_cx_bau_bg_s1_x_x_pr-ex_x_hyb_x_x_professional-certificates_x&querystring=IBM%20RAG%20and%20Agentic%20AI%20Professional%20Certificate&targetid=kwd-78615551093387:loc-139&bidmatchtype=be&extensionid=&msclkid=77049df23f9c1cb1c474f4f11a63ada7&utm_term=ibm%20rag%20and%20agentic%20ai%20professional%20certificate&utm_content=b2c_emea_ibm-rag-and-agentic-ai_ibm_cx_bau_bg_s1_x_x_pr-ex_x_hyb_x_x_professional-certificates_x)) (Coursera)** - Avansert kurs i agentic systems. LangChain, LangGraph, CrewAI, multi-agent systems.
+- **[IBM RAG and Agentic AI Professional Certificate](https://www.coursera.org/professional-certificates/ibm-rag-and-agentic-ai) (Coursera)** - Avansert kurs i agentic systems. LangChain, LangGraph, CrewAI, multi-agent systems.
   
   - Alternativt kurs: [The Complete Agentic AI Engineering Course (2025)](https://www.udemy.com/course/the-complete-agentic-ai-engineering-course/) 
     
