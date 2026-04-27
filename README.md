@@ -129,7 +129,13 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 
 - [**AI Act** | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) - Introduksjon til AI Act, konsis og fin.
   
+  - [Timeline for the Implementation of the EU AI Act | AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act) 
   
+  - [The General-Purpose AI Code of Practice | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai) 
+  
+  - [Living repository to foster learning and exchange on AI literacy | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/library/living-repository-foster-learning-and-exchange-ai-literacy) - Konkrete eksempler på hvordan organisasjoner håndterer opplæring i AI Literacy
+    
+    
 
 - Bonus: [**AI Fundamentals Skill Track**](https://www.datacamp.com/tracks/ai-fundamentals) (DataCamp) - Strukturert læringsbane med interaktive øvelser. Dekker ChatGPT, LLM-konsepter, GenAI-konsepter og KI-etikk. Praktisk og hands-on.
 
