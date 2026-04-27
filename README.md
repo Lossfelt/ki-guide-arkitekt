@@ -379,6 +379,20 @@ Hold øye med oppdateringer fra plattformene du bruker i prosjektene dine:
 
 Som norsk IT-konsulent har du tilgang til sterke lokale og nordiske KI-miljøer:
 
+## Norsk regulering og forvaltning
+
+For arkitekter som leverer KI-løsninger i Norge er dette de viktigste myndighets- og forvaltningskildene:
+
+- **[Nkom: KI-forordningen og regulering](https://nkom.no/ki/regulering)** - Nkom er nasjonalt koordinerende KI-tilsyn og EUs nasjonale kontaktpunkt i Norge. Hovedsiden samler oversikt over hvem som håndhever hva, plikter for ulike aktører og praktisk veiledning.
+
+- **[Nkom: KI-loven i et nøtteskall](https://nkom.no/ki/i-et-notteskall)** - Kort oversikt over den norske KI-loven og hva den pålegger ulike roller som leverandør, idriftssetter og distributør. Loven gjennomfører EUs KI-forordning i norsk rett.
+
+- **[Nkom: Aktørene i KI-forordningen](https://nkom.no/ki/regulering/aktorer)** - Oversikt over rollene leverandør, idriftsetter, importør, distributør og produkttilvirker med tilhørende plikter. Nyttig for å se hvordan arkitekturvalg kan flytte organisasjonen fra én rolle til en annen i verdikjeden, for eksempel fra idriftsetter til leverandør når man finetuner og videreselger en modell.
+
+- **[Digdir: KI Norge](https://www.digdir.no/kunstig-intelligens/digdir-etablerer-ki-norge/7412)** - KI Norge er det nasjonale senteret for KI plassert i Digdir, ment som møtepunkt mellom forvaltning, jus, teknologi og forskning. Særlig relevant for arkitekter i offentlige prosjekter.
+
+- **[Datatilsynet: Regulatorisk sandkasse for KI](https://www.datatilsynet.no/regelverk-og-verktoy/sporsmal-svar/sandkasse-for-kunstig-intelligens/)** - Sandkassen drives nå formelt sammen mellom Digdir, Nkom og Datatilsynet. Datatilsynet har publisert caserapporter siden 2020 som er nyttige når du vurderer personvern- og compliance-problemstillinger.
+
 ## Norske KI-samfunn og organisasjoner
 
 - **[NORA](https://www.nora.ai/) (Norwegian AI Research Consortium)** - Nasjonal KI-forskningskonsortium.
