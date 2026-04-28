@@ -407,6 +407,10 @@ For arkitekter som leverer KI-løsninger i Norge er dette de viktigste myndighet
 
 - **[Datatilsynet: Regulatorisk sandkasse for KI](https://www.datatilsynet.no/regelverk-og-verktoy/sporsmal-svar/sandkasse-for-kunstig-intelligens/)** - Sandkassen drives nå formelt sammen mellom Digdir, Nkom og Datatilsynet. Datatilsynet har publisert caserapporter siden 2020 som er nyttige når du vurderer personvern- og compliance-problemstillinger.
 
+- **[Digdir: Ansvarlig anskaffelse og bruk av generativ KI i offentlig sektor](https://www.digdir.no/kunstig-intelligens/ansvarlig-anskaffelse-og-bruk-av-generativ-kunstig-intelligens-i-offentlig-sektor/4670)** - Operativ veiledning for offentlig sektor om hvordan generativ KI bør anskaffes og tas i bruk. Dekker risikovurderinger, sikkerhet, juridiske vurderinger og hvordan ulike kategorier av KI-verktøy bør håndteres.
+
+- **[Datatilsynet: Vurder personvernkonsekvensene og bygg personvern inn i løsningene](https://www.datatilsynet.no/regelverk-og-verktoy/rapporter-og-utredninger/kunstig-intelligens/vurder-personvernkonsekvensene---og-bygg-personvern-inn-i-losningene/)** - KI-spesifikk veiledning om personvern by design og vurdering av personvernkonsekvenser (DPIA). Beskriver hvilke krav personopplysningsloven og GDPR stiller før, under og etter bruk av KI-løsninger som behandler personopplysninger.
+
 ## Norske KI-samfunn og organisasjoner
 
 - **[NORA](https://www.nora.ai/) (Norwegian AI Research Consortium)** - Nasjonal KI-forskningskonsortium.
@@ -417,9 +421,7 @@ For arkitekter som leverer KI-løsninger i Norge er dette de viktigste myndighet
 
 - **[Oslo.AI meetups](https://www.meetup.com/oslo-ai/)** - Kvartalsvis networking og praktiske case.
 
-## Norske konferanser og arrangementer
-
-- [**The Nordic AI Union Summit 2026**](https://nordicaisummit.org/) (Oslo, 19. mars) - Where union leaders, experts, and changemakers come together to shape a worker-driven and democratic digital transformation of the future workplace.
+# 
 
 ## Nordiske initiativer
 
