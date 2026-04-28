@@ -81,6 +81,12 @@ Agentiske KI-systemer trenger en standardisert måte å koble seg til verktøy, 
 
 Som arkitekt er MCP relevant fordi det gir deg et standardisert integrasjonsmønster: i stedet for å bygge skreddersydde koblinger mellom hver KI-modell og hvert verktøy, designer du MCP-servere som eksponerer kapabiliteter på en enhetlig måte. Dette forenkler multi-agent-arkitekturer og gjør det mulig å bytte modell-leverandør uten å skrive om integrasjonslaget.
 
+## Agent2Agent (A2A) og agent-til-agent-kommunikasjon
+
+Der MCP standardiserer hvordan agenter snakker med verktøy og datakilder, standardiserer **[A2A (Agent2Agent)](https://a2a-protocol.org/latest/)** hvordan agenter snakker med hverandre. Protokollen kom opprinnelig fra Google (april 2025), er nå donert til Linux Foundation, og dekker discovery via Agent Cards, oppgaveformat og autentisering. MCP og A2A er komplementære: MCP er verktøylaget, A2A er samarbeidslaget.
+
+For interne multi-agent-systemer der du eier alle agentene, er A2A i praksis et sjekkpunkt: støtter rammeverket vi velger A2A? Arkitektrelevansen øker når du eksponerer agenter på tvers av team- eller organisasjonsgrenser. Da må du ta beslutninger om discovery (åpen registry vs. privat føderasjon), trust og identitet via Signed Agent Cards, autentisering og autorisasjon mellom agenter, og versjonering av Agent Cards når kapabiliteter endres.
+
 ## Observability og evaluering
 
 Du **initierer og eier eval/observability-rammeverket** (golden-set, SLOer, canary/A/B) selv om gjennomføringen ofte gjøres av teamet.
