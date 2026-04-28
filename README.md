@@ -303,17 +303,17 @@ Generelt tilgjengelig siden januar 2026. Den mest relevante sertifiseringen for 
 
 **[AWS Certified Generative AI Developer - Professional](https://aws.amazon.com/certification/certified-generative-ai-developer-professional/)**
 
-Lansert november 2025 (eksamen AIP-C01). 205 minutter, 85 spørsmål. Fokus på production-ready GenAI solutions, AWS Bedrock, vector databases, kostnadsoptimalisering, sikkerhet. 2+ år AWS-erfaring og 1+ år GenAI-erfaring anbefalt. NB: AWS ML Specialty pensjoneres 31. mars 2026.
+Lansert november 2025 (eksamen AIP-C01). 205 minutter, 85 spørsmål. Fokus på production-ready GenAI solutions, AWS Bedrock, vector databases, kostnadsoptimalisering, sikkerhet. 2+ år AWS-erfaring og 1+ år GenAI-erfaring anbefalt. Erstatter AWS ML Specialty, som ble pensjonert 31. mars 2026.
 
 
 
 **Google Cloud [Professional Cloud Architect](https://cloud.google.com/learn/certification/cloud-architect)**
 
-Oppdatert med utvidet GenAI-fokus. Inkluderer generativ KI-teknologi for forretningsverdi, case studies med GenAI-løsninger. $200 USD, 2 timer, gyldig 2 år. Bygger på en learning path, men ikke tydelig hvor teknisk man må være for å ta sertifiseringen.
+Oppdatert med utvidet GenAI-fokus, inkludert generativ KI-teknologi for forretningsverdi. Fornyelseseksamen bygger nå på et eget case study knyttet til generative AI-løsninger (Vertex AI, Gemini, Model Garden, Agent Builder, ansvarlig AI) som hovedkomponent. $200 USD, 2 timer, gyldig 2 år. Bygger på en learning path, men ikke tydelig hvor teknisk man må være for å ta sertifiseringen.
 
 **Google Cloud [Generative AI Leader](https://cloud.google.com/learn/certification/generative-ai-leader)**
 
-Ny sertifisering rettet mot ledere og arkitekter, fokus på at man har forretningsforståelse og stiller ingen krav til teknis kunnskap. Bygger på en relativt kort, lederorientert learning path. Fokus på hvordan GenAI kan transformere virksomheter, Googles GenAI-tilbud, teknikker for å forbedre modelloutput, og forretningsstrategier. $99 USD, 90 minutter, gyldig år.
+Ny sertifisering rettet mot ledere og arkitekter, fokus på at man har forretningsforståelse og stiller ingen krav til teknisk kunnskap. Bygger på en relativt kort, lederorientert learning path. Fokus på hvordan GenAI kan transformere virksomheter, Googles GenAI-tilbud, teknikker for å forbedre modelloutput, og forretningsstrategier. $99 USD, 90 minutter, gyldig 3 år.
 
 
 
