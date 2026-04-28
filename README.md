@@ -133,6 +133,8 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 
 - [**OWASP Top 10 for LLM Applications 2025**](https://genai.owasp.org/llm-top-10/) - Introduksjon til sikkerhetsrisikoer spesielt for LLM-er. 2025-versjonen inkluderer nye kategorier som "Vector and Embedding Weaknesses" og "System Prompt Leakage". Litt tungt formulert og noe repetetivt.
 
+- [**OWASP GenAI Security Project**](https://genai.owasp.org/) - Paraplyprosjektet som OWASP Top 10 for LLM Applications nå er en del av. Fikk Flagship-status i mars 2025 og dekker bredere enn bare LLM-applikasjoner: agenter, MCP-servere, treningsdata og red teaming. Bruk hovedsiden som inngang når du skal finne sikkerhetsressurser for spesifikke arkitekturer (agentiske systemer og MCP-servere er dekket i Fase 3).
+
 - [**AI Act** | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) - Introduksjon til AI Act, konsis og fin.
   
   - [Timeline for the Implementation of the EU AI Act | AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act) 
@@ -242,6 +244,12 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
 - **[Multi-agent systems](https://www.ibm.com/think/topics/multiagent-system):** Arkitektur der flere spesialiserte KI-agenter samarbeider om komplekse oppgaver. Frameworks: CrewAI, LangGraph, AutoGen.
 
 - [Hvordan bygge en OpenClaw kopi](https://x.com/dabit3/status/2021387483364151451) - Tutorial på å lage en agent med permanent minne, verktøy den kan bruke, tilgang via flere kanaler, og med schedulerte kall slik at den kan gjøre ting "autonomt". Gir en god forståelse av en grunnleggende personlig AI-assistent.
+
+- **Sikkerhet i agentiske systemer og MCP-servere:** Agenter med verktøytilgang og MCP-servere som eksponerer kapabiliteter introduserer sikkerhetsproblemstillinger som ikke fanges av tradisjonell LLM-sikkerhet: tool poisoning, delegert tilgang, sesjonsisolasjon, scope-design og inter-agent kommunikasjon.
+  
+  - [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Publisert desember 2025. Identifiserer ti risikoer i agentiske systemer (ASI01-ASI10), inkludert goal hijacking, tool misuse, memory poisoning og rogue agents.
+  
+  - [A Practical Guide for Secure MCP Server Development](https://genai.owasp.org/resource/a-practical-guide-for-secure-mcp-server-development/) - OWASPs konkrete veiledning fra februar 2026. Dekker autentisering/autorisasjon, Token Delegation (RFC 8693), validering, sesjonsisolasjon og hardnet deployment.
 
 - **Observability og Evaluation:** Observability er innsyn i hvordan LLM-kjeden faktisk oppfører seg (kvalitet, ytelse, kost, sikkerhet). Evaluation er å måle kvalitet før/etter produksjon med faste datasett og terskler, slik at endringer ikke forverrer resultatene.
   
