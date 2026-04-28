@@ -115,7 +115,7 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 
 - [**Tokens**](https://cloud.google.com/vertex-ai/generative-ai/docs/glossary-genai#token): Grunnenheter som LLM-er prosesserer. En token er ca. 4 karakterer på engelsk, 2-3 på norsk. Viktig for kostnadsstyring (pricing er per token) og context window-begrensninger.
 
-- [**Context window**](https://cloud.google.com/vertex-ai/generative-ai/docs/glossary-genai#context_window): Maksimum antall tokens en LLM kan prosessere samtidig (input + output). OpenAI GPT-5/5.2: ~400K, Google Gemini 3: 1M (Pro), 200K (Flash), Anthropic Claude: 200K (standard), utvidet opptil 1M for utvalgte modeller. Kritisk arkitektur-constraint.
+- [**Context window**](https://cloud.google.com/vertex-ai/generative-ai/docs/glossary-genai#context_window): Maksimum antall tokens en LLM kan prosessere samtidig (input + output). Kritisk arkitektur-constraint.
 
 - **[Foundation models](https://cloud.google.com/vertex-ai/generative-ai/docs/glossary-genai#foundation_model):** Store, generelle KI-modeller trent på brede datasett som kan fine-tunes eller tilpasses til spesifikke oppgaver. Basis for moderne GenAI-applikasjoner.
 
