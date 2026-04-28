@@ -145,6 +145,10 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
     
     
 
+- Bonus: [**NIST AI RMF Generative AI Profile (NIST AI 600-1)**](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence) - Leverandørnøytralt risk management-rammeverk for generativ KI.
+
+- Bonus: [**NIST Adversarial Machine Learning Taxonomy (NIST AI 100-2 E2025)**](https://csrc.nist.gov/pubs/ai/100/2/e2025/final) - Standardisert vokabular for KI-sikkerhetsangrep (prompt injection, data poisoning, model extraction, adversarial examples). 2025-versjonen er oppdatert med GenAI-innhold. Brukes ofte av sikkerhetsteam og forskning som komplement til OWASP.
+
 - Bonus: [**AI Fundamentals Skill Track**](https://www.datacamp.com/tracks/ai-fundamentals) (DataCamp) - Strukturert læringsbane med interaktive øvelser. Dekker ChatGPT, LLM-konsepter, GenAI-konsepter og KI-etikk. Praktisk og hands-on.
 
 - Bonus: [Microsoft Certified: **Azure AI Fundamentals** - Certifications | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) - Hvis du ønsker et Microsoft-fokusert introduksjonskurs.
