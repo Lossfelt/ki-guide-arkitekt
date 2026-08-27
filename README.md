@@ -8,7 +8,7 @@ Din rolle som løsningsarkitekt utvides til å omfatte generativ KI-arkitektur, 
 
 KI-arkitekten representerer en naturlig utvidelse av løsningsarkitektrollen, der ditt eksisterende fundament innen systemarkitektur, integrasjoner og forretningsprosesser nå får en kritisk ny dimensjon: å designe, planlegge og implementere virksomhetsomfattende KI-løsninger som skaper forretningsverdi.
 
-Som KI-arkitekt for generativ KI er din primære oppgave å bygge bro mellom forretningsbehov og tekniske KI-muligheter. Du oversetter forretningsutfordringer til KI-arkitekturløsninger, velger riktige modeller og tilnærminger, designer datapipelines og integrasjoner, og sikrer at KI-systemene er skalerbare, sikre og i samsvar med regulatoriske krav. Du eier målbildet for virksomhetens KI-arkitektur og etablerer feedback-sløyfer (observability/evaluering) for løpende forbedring. Dette betyr å forstå både forretningsprosesser og tekniske KI-konsepter som **RAG (Retrieval-Augmented Generation), LLMOps, prompt engineering, embedding-modeller og vektordatabaser.**
+Som KI-arkitekt for generativ KI er din primære oppgave å bygge bro mellom forretningsbehov og tekniske KI-muligheter. Du oversetter forretningsutfordringer til KI-arkitekturløsninger, velger riktige modeller og tilnærminger, designer informasjonsarkitektur og integrasjoner, og sikrer at KI-systemene er skalerbare, sikre og i samsvar med regulatoriske krav. Du eier målbildet for virksomhetens KI-arkitektur og etablerer feedback-sløyfer (observability/evaluering) for løpende forbedring. Dette betyr å forstå både forretningsprosesser og tekniske KI-konsepter som **RAG (Retrieval-Augmented Generation), LLMOps, prompt engineering, embedding-modeller og vektordatabaser.**
 
 **Din unike verdi** ligger i evnen til å se helheten: Du forstår eksisterende systemlandskap, integrasjonsmønstre og informasjonsflyt, og kan nå legge til KI-kapabiliteter som en integrert del av virksomhetsarkitekturen -- ikke bare som isolerte eksperimenter. Du designer for produksjon fra dag én, med tanke på skalerbarhet, vedlikehold og total eierkostnad.
 
@@ -111,7 +111,7 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 
 - [**Generativ KI**](https://cloud.google.com/vertex-ai/generative-ai/docs/glossary-genai#generative_model): KI-systemer som genererer nytt innhold (tekst, bilder, kode) basert på treningsdata. Skiller seg fra klassisk ML som klassifiserer eller predikerer.
 
-- [**LLM (Large Language Model**)](https://libguides.usask.ca/gen_ai/glossary#section_L): Store nevrale nettverk trent på massive tekstdatasett (ofte hundrevis av milliarder tokens). Eksempler: GPT-5, Claude, Llama. Kan forstå og generere naturlig språk, kode, resonere og løse oppgaver.
+- [**LLM (Large Language Model)**](https://libguides.usask.ca/gen_ai/glossary#section_L): Store nevrale nettverk trent på massive tekstdatasett (ofte hundrevis av milliarder tokens). Eksempler: GPT-5, Claude, Llama. Kan forstå og generere naturlig språk, kode, resonere og løse oppgaver.
 
 - [**Tokens**](https://cloud.google.com/vertex-ai/generative-ai/docs/glossary-genai#token): Grunnenheter som LLM-er prosesserer. En token er ca. 4 karakterer på engelsk, 2-3 på norsk. Viktig for kostnadsstyring (pricing er per token) og context window-begrensninger.
 
@@ -125,17 +125,19 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 
 ### Anbefalte kurs
 
-- [**Generative AI for Everyone**](https://www.coursera.org/learn/generative-ai-for-everyone) (Andrew Ng, Coursera) - Start her. Gratis audit, ~6 timer, ikke-teknisk introduksjon. Gir deg business context og fundamental forståelse av hva GenAI er og hva det kan gjøre. Kurset er ikke helt cutting-edge, men innholdet er fortsatt relevant.
+> **Sist kontrollert:** 27. august 2026. Kursinnhold, pris, språk og tilgjengelighet kan endres.
+
+- [**Generative AI for Everyone**](https://www.coursera.org/learn/generative-ai-for-everyone) (Andrew Ng, Coursera) - Start her. Omtrent 5 timer, ikke-teknisk introduksjon. Gir deg forretningskontekst og grunnleggende forståelse av hva generativ KI er og hva det kan gjøre. Kurset er ikke helt oppdatert på den nyeste utviklingen, men grunninnholdet er fortsatt relevant. Tilgang til sertifikat avhenger av plattform og abonnement.
   
   - Gratis hos [Deeplearning.ai](https://www.deeplearning.ai/courses/generative-ai-for-everyone/) 
 
 - [**Elements of AI**](https://www.elementsofai.com/) (NTNU lagde norsk versjon, opprinnelig fra Universitetet i Helsinki og MinnaLearn) - Gratis online kurs på norsk, 5 sesjoner (40 timer totalt). Perfekt for norsk kontekst, gir sertifikat fra NTNU. Dekker KI-grunnlag, etikk og samfunnspåvirkning.
 
-- [**OWASP Top 10 for LLM Applications 2025**](https://genai.owasp.org/llm-top-10/) - Introduksjon til sikkerhetsrisikoer spesielt for LLM-er. 2025-versjonen inkluderer nye kategorier som "Vector and Embedding Weaknesses" og "System Prompt Leakage". Litt tungt formulert og noe repetetivt.
+- [**OWASP GenAI LLM Top 10 2026**](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) - Introduksjon til de viktigste sikkerhetsrisikoene i LLM-applikasjoner. 2026-versjonen har oppdaterte rangeringer, utvidet trusseldekning og koblinger til blant annet NIST, MITRE ATLAS og OWASP Top 10 for Agentic Applications.
 
 - [**OWASP GenAI Security Project**](https://genai.owasp.org/) - Paraplyprosjektet som OWASP Top 10 for LLM Applications nå er en del av. Fikk Flagship-status i mars 2025 og dekker bredere enn bare LLM-applikasjoner: agenter, MCP-servere, treningsdata og red teaming. Bruk hovedsiden som inngang når du skal finne sikkerhetsressurser for spesifikke arkitekturer (agentiske systemer og MCP-servere er dekket i Fase 3).
 
-- [**AI Act** | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) - Introduksjon til AI Act, konsis og fin.
+- [**AI Act** | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) - Introduksjon til AI Act, konsis og fin. Forordningen ble generelt gjeldende i EU 2. august 2026. Etter AI Omnibus gjelder reglene for høyrisikosystemer i vedlegg III fra 2. desember 2027, mens høyrisiko-KI innebygd i regulerte produkter følger fra 2. august 2028.
   
   - [Timeline for the Implementation of the EU AI Act | AI Act Service Desk](https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act) 
   
@@ -151,7 +153,7 @@ Bygge solid forståelse av generativ KI, LLM-er, og grunnleggende konsepter som 
 
 - Bonus: [**AI Fundamentals Skill Track**](https://www.datacamp.com/tracks/ai-fundamentals) (DataCamp) - Strukturert læringsbane med interaktive øvelser. Dekker ChatGPT, LLM-konsepter, GenAI-konsepter og KI-etikk. Praktisk og hands-on.
 
-- Bonus: [Microsoft Certified: **Azure AI Fundamentals** - Certifications | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) - Hvis du ønsker et Microsoft-fokusert introduksjonskurs.
+- Bonus: [Microsoft Certified: **Azure AI Fundamentals (AI-901)** - Certifications | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) - Hvis du ønsker en Microsoft-fokusert introduksjon. Sertifiseringen bruker nå eksamen AI-901, og kurset AI-901T00 erstattet AI-900T00 våren 2026. Grunnleggende kjennskap til Python og Azure anbefales.
 
 - Bonus: [Beginner: Introduction to Generative AI | Google Skills](https://www.skills.google/paths/118) - Hvis du ønsker et Google-fokusert introduksjonskurs.
 
@@ -173,7 +175,7 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
 
 ### Nøkkelbegreper å mestre
 
-- **RAG (Retrieval-Augmented Generation):** Arkitekturmønster som gir LLM-er tilgang til ekstern kunnskap ved å hente relevant informasjon fra databaser/dokumenter. Løser hallucination-problemet og gir oppdatert informasjon uten retraining. Kritisk for virksomhetsløsninger.
+- **RAG (Retrieval-Augmented Generation):** Arkitekturmønster som gir LLM-er tilgang til ekstern kunnskap ved å hente relevant informasjon fra databaser/dokumenter. Reduserer sannsynligheten for hallusinasjoner og gir oppdatert informasjon uten retraining. Kritisk for virksomhetsløsninger.
   
   - [What is RAG? - Retrieval-Augmented Generation AI Explained - AWS](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
   
@@ -209,9 +211,11 @@ Utvikle praktisk forståelse av RAG, prompt engineering, embedding og vektordata
 
 ### Anbefalte kurs:
 
-- [**Generative AI with Large Language Models**]([Generative AI with Large Language Models - DeepLearning.AI](https://learn.deeplearning.ai/courses/generative-ai-with-llms/information)) - Omfattende kurset for bl.a. arkitekter på ca 11 timer. Dekker LLM lifecycle, transformer architecture, fine-tuning, RLHF, deployment. "Eldre" kurs uten nyere kunnskap enn 2022, men fortsatt bra. [Samme kurs hos Coursera](https://www.coursera.org/learn/generative-ai-with-llms) 
+> **Sist kontrollert:** 27. august 2026. Kursinnhold, pris og tilgjengelighet kan endres.
 
-- **[Retrieval Augmented Generation (RAG)](https://www.deeplearning.ai/courses/retrieval-augmented-generation-rag/)** - Dedikert RAG-kurs. Kritisk for produksjonsløsninger.
+- [**Generative AI with Large Language Models**](https://learn.deeplearning.ai/courses/generative-ai-with-llms/information) - Omfattende kurs for blant annet arkitekter på omtrent 11 timer. Dekker LLM-livssyklus, transformerarkitektur, fine-tuning, RLHF og deployment. Kurset bygger i hovedsak på kunnskap frem til 2022, men grunnstoffet er fortsatt relevant. [Samme kurs hos Coursera](https://www.coursera.org/learn/generative-ai-with-llms).
+
+- **[Retrieval Augmented Generation (RAG)](https://www.deeplearning.ai/courses/retrieval-augmented-generation)** - Mellomnivåprogram med 5 kurs og 49 videoleksjoner. Dekker søketeknikker, vektordatabaser, chunking, promptdesign, evaluering og produksjonssetting. Python på mellomnivå anbefales.
 
 - Bonus: [**Building and Evaluating Advanced RAG Applications - DeepLearning.AI**](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/) - Litt om chunking og avansert indeksering.
 
@@ -235,17 +239,19 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
 
 ### Nøkkelbegreper
 
+> **Sist kontrollert:** 27. august 2026. Rammeverk, protokoller og anbefalte ressurser i denne fasen endres raskt.
+
 - **LLMOps (Large Language Model Operations):** Evolusjon av MLOps spesifikt for LLM-er. Inkluderer prompt management, model versioning, A/B testing, cost monitoring, output quality monitoring, og deployment pipelines.
   
   - [Understanding LLMOps: Weights and Biases](https://wandb.ai/site/articles/understanding-llmops-large-language-model-operations/) - Litt repetisjon av hva LLM er, men en grei forklaring av hvorfor man må ha operativ struktur når man benytter LLM i applikasjoner.
 
 - **AI Agents/Agentic AI:** Autonome KI-systemer som kan planlegge, bruke verktøy, og utføre komplekse oppgaver med minimal menneskelig involvering. Representerer fremtidens KI-applikasjoner.
   
-  - [Introduction to Agents.pdf - Google Disk](https://drive.google.com/file/d/1C-HvqgxM7dj4G2kCQLnuMXi1fTpXRdpx/view) - **Veldig god artikkel, skal bli en serie** (Jeg tror dette kanskje er resten [5-Day-AI-Agents-Intensive-Course-Whitepaper](https://github.com/Vasu-uu/5-Day-AI-Agents-Intensive-Course-Whitepaper) )
+  - [5-Day AI Agents Intensive Course with Google](https://www.kaggle.com/learn-guide/5-day-agents) - Offisielt, gratis og selvstyrt kurs fra Google og Kaggle. Dekker modeller, verktøy, orkestrering, minne, evaluering og veien fra prototype til produksjonsklart agentsystem.
   
   - [What are AI Agents? - AWS](https://aws.amazon.com/what-is/ai-agents/) - OK beskrivelse av hva en agent er, men litt rare kategorier og noen misforståelser.
 
-- **[Multi-agent systems](https://www.ibm.com/think/topics/multiagent-system):** Arkitektur der flere spesialiserte KI-agenter samarbeider om komplekse oppgaver. Frameworks: CrewAI, LangGraph, AutoGen.
+- **[Multi-agent systems](https://www.ibm.com/think/topics/multiagent-system):** Arkitektur der flere spesialiserte KI-agenter samarbeider om komplekse oppgaver. Aktuelle rammeverk inkluderer CrewAI, LangGraph og [Microsoft Agent Framework](https://learn.microsoft.com/en-us/agent-framework/overview/). AutoGen er i vedlikeholdsmodus og anbefales ikke for nye prosjekter; Microsoft Agent Framework er etterfølgeren.
 
 - [Hvordan bygge en OpenClaw kopi](https://x.com/dabit3/status/2021387483364151451) - Tutorial på å lage en agent med permanent minne, verktøy den kan bruke, tilgang via flere kanaler, og med schedulerte kall slik at den kan gjøre ting "autonomt". Gir en god forståelse av en grunnleggende personlig AI-assistent.
 
@@ -269,13 +275,15 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
   
   - [Design Patterns for Long-Term Memory in LLM-Powered Architectures (Serokell)](https://serokell.io/blog/design-patterns-for-long-term-memory-in-llm-powered-architectures) - God sammenligning av fire arkitekturmønstre for agent memory: MemGPT, OpenAI, Claude og AI Toolkits
   
-  - En pragmatisk tilnærming er å bruke filsystemet direkte, med feks markdown- eller CSV-filer som agenten leser og skriver til. [Benchmarking fra Letta](https://www.letta.com/blog/benchmarking-ai-agent-memory) viser at filbasert memory (74%) kan overgå mer komplekse løsninger som grafbaserte systemer (68.5%), fordi LLM-er er godt trent på filoperasjoner. Claude Code sin [CLAUDE.md](https://code.claude.com/docs/en/memory) er et produksjonseksempel på dette mønsteret. For mange bruksscenarier er filsystemet tilstrekkelig som langtidsminne, uten behov for vektordatabaser eller spesialisert infrastruktur.
+  - En pragmatisk tilnærming er å bruke filsystemet direkte, med feks markdown- eller CSV-filer som agenten leser og skriver til. [Benchmarking fra Letta](https://www.letta.com/blog/benchmarking-ai-agent-memory) viser at filbasert memory (74%) *kan* overgå mer komplekse løsninger som grafbaserte systemer (68.5%), fordi LLM-er er godt trent på filoperasjoner. Claude Code sin [CLAUDE.md](https://code.claude.com/docs/en/memory) er et produksjonseksempel på dette mønsteret. For mange bruksscenarier er filsystemet tilstrekkelig som langtidsminne, uten behov for vektordatabaser eller spesialisert infrastruktur.
 
 ### Anbefalte kurs
 
+> **Sist kontrollert:** 27. august 2026. Kursinnhold, pris og tilgjengelighet kan endres.
+
 - **[Large Language Model Operations (LLMOps) Specialization](https://www.coursera.org/specializations/large-language-model-operations) (Duke University, Coursera)** - 6-kurs spesialisering spesifikt for LLMOps. Viktig for produksjon.
 
-- **[IBM RAG and Agentic AI Professional Certificate](https://www.coursera.org/professional-certificates/ibm-rag-and-agentic-ai) (Coursera)** - Avansert kurs i agentic systems. LangChain, LangGraph, CrewAI, multi-agent systems.
+- **[IBM RAG and Agentic AI Professional Certificate](https://www.coursera.org/professional-certificates/ibm-rag-and-agentic-ai) (Coursera)** - Oppdatert 10-kurs program i RAG og agentiske systemer. Dekker blant annet LangChain, LangGraph, CrewAI, AG2, BeeAI, MCP, multimodalitet og multi-agent-systemer.
   
   - Alternativt kurs: [The Complete Agentic AI Engineering Course (2025)](https://www.udemy.com/course/the-complete-agentic-ai-engineering-course/) 
     
@@ -289,31 +297,29 @@ Mestre LLMOps, agentic systems, multi-agent orchestration og produksjonsdistribu
 
 ## Prioriterte sertifiseringer for KI-arkitekter
 
+> **Sist kontrollert:** 27. august 2026. Eksamenskrav, priser, varighet og sertifiseringsløp kan endres.
+
 **Microsoft Certified: [Agentic AI Business Solutions Architect (AB-100)](https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-100/)**
 
-Generelt tilgjengelig siden januar 2026. Den mest relevante sertifiseringen for KI-arkitekter, om enn noe utviklerorientert. Fokus på multi-agent orchestrated solutions, Azure OpenAI, Copilot Studio, Agent2Agent (A2A), Model Context Protocol (MCP). Instruktørledet kurs AB-100 er nå tilgjengelig. Krever at man har en del sertifiseringer fra før. Har man ikke det kan følgende være en god vei å komme dit:
+Generelt tilgjengelig siden januar 2026. Den mest relevante sertifiseringen for KI-arkitekter på Microsoft-plattformen, om enn noe utviklerorientert. Fokus på orkestrerte multi-agent-løsninger, Microsoft Foundry, Copilot Studio, Agent2Agent (A2A), Model Context Protocol (MCP), sikkerhet, styring og gevinstrealisering. For å få selve ekspertsertifiseringen må du bestå AB-100 og ha én av Microsofts godkjente associate-sertifiseringer. Den gjeldende listen står på eksamenssiden og kan endres. En aktuell vei er:
 
-1. [Course PL-900T00-A: Introduction to Microsoft Power Platform - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/courses/pl-900t00)
+1. Valgfritt grunnlag: [Microsoft Certified: Azure AI Fundamentals (AI-901)](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/)
 
-2. [Course PL-200T00-A: Microsoft Power Platform Functional Consultant - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/courses/pl-200t00)
+2. Velg én godkjent associate-sertifisering som passer retningen din, for eksempel [Azure AI Apps and Agents Developer Associate (AI-103)](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/), [Machine Learning Operations Engineer Associate (AI-300)](https://learn.microsoft.com/en-us/credentials/certifications/operationalizing-machine-learning-and-generative-ai-solutions/) eller [AI Agent Builder Associate (AB-620)](https://learn.microsoft.com/en-us/credentials/certifications/ai-agent-builder-associate/)
 
-3. [Develop generative AI apps in Azure - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/create-custom-copilots-ai-studio/)
-
-4. [Copilot Foundations AI-3018 - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/copilot-foundations/)
-
-5. [Microsoft Certified: Azure AI Engineer Associate - Certifications | Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/) - krever litt kompetanse om Python/C# eller lignende
+3. Ta det selvstyrte eller instruktørledede AB-100-kurset, bygg praktisk erfaring og bestå AB-100-eksamenen
    
    
 
 **[AWS Certified Generative AI Developer - Professional](https://aws.amazon.com/certification/certified-generative-ai-developer-professional/)**
 
-Lansert november 2025 (eksamen AIP-C01). 205 minutter, 85 spørsmål. Fokus på production-ready GenAI solutions, AWS Bedrock, vector databases, kostnadsoptimalisering, sikkerhet. 2+ år AWS-erfaring og 1+ år GenAI-erfaring anbefalt. Erstatter AWS ML Specialty, som ble pensjonert 31. mars 2026.
+Eksamen AIP-C01 varer 180 minutter og har 75 spørsmål, hvorav 65 teller i resultatet. Fokus på produksjonsklare GenAI-løsninger, AWS Bedrock, vektordatabaser, kostnadsoptimalisering, sikkerhet, styring, testing og feilsøking. AWS anbefaler minst to års erfaring med produksjonsapplikasjoner på AWS eller åpen kildekode og ett års praktisk GenAI-erfaring. AWS Certified Machine Learning - Specialty ble pensjonert 31. mars 2026; eksisterende sertifiseringer er fortsatt aktive ut sin opprinnelige gyldighetstid.
 
 
 
 **Google Cloud [Professional Cloud Architect](https://cloud.google.com/learn/certification/cloud-architect)**
 
-Oppdatert med utvidet GenAI-fokus, inkludert generativ KI-teknologi for forretningsverdi. Fornyelseseksamen bygger nå på et eget case study knyttet til generative AI-løsninger (Vertex AI, Gemini, Model Garden, Agent Builder, ansvarlig AI) som hovedkomponent. $200 USD, 2 timer, gyldig 2 år. Bygger på en learning path, men ikke tydelig hvor teknisk man må være for å ta sertifiseringen.
+Standardeksamenen dekker bred skyarkitektur og er ikke en ren GenAI-sertifisering. Den koster $200 USD, varer i 2 timer, har 50-60 spørsmål og to case-studier som samlet utgjør 20-30 prosent. Sertifiseringen er gyldig i 2 år. Den separate fornyelseseksamenen koster $100 USD, varer i 1 time og har 25 spørsmål; der er ett case om generative KI-løsninger 90-100 prosent av eksamenen. Det anbefales minst tre års bransjeerfaring, inkludert minst ett år med design og forvaltning av løsninger i Google Cloud.
 
 **Google Cloud [Generative AI Leader](https://cloud.google.com/learn/certification/generative-ai-leader)**
 
@@ -349,6 +355,8 @@ Generativ KI utvikler seg i et tempo som gjør at kunnskap kan bli utdatert i l�
 
 ## Anbefalte kilder
 
+> **Sist kontrollert:** 27. august 2026. Publiseringsfrekvens og aktivitet kan endres.
+
 ### Nyhetsbrev
 
 - **[TLDR AI](https://tldr.tech/ai)** -- Daglig, kort oppsummering av de viktigste AI-nyhetene. God balanse mellom forskning, industri og verktøy.
@@ -369,7 +377,7 @@ Generativ KI utvikler seg i et tempo som gjør at kunnskap kan bli utdatert i l�
 
 - **[Latent Space](https://www.latent.space/podcast)** -- Teknisk orientert. Gode intervjuer med folk som bygger KI-systemer i praksis.
 
-- **[Practical AI](https://changelog.com/practicalai)** (Changelog) -- Praktisk vinkling, relevant for arkitekter.
+- **[Practical AI](https://changelog.com/practicalai)** (Changelog) - Podcast med praktisk orienterte episoder.
 
 - **[Dwarkesh Podcast | Dwarkesh Patel | Substack](https://www.dwarkesh.com/)** -- Mange intervjuer med folk i forskningsfronten av AI.
 
@@ -395,6 +403,8 @@ Hold øye med oppdateringer fra plattformene du bruker i prosjektene dine:
 
 # Norske og nordiske ressurser
 
+> **Sist kontrollert:** 27. august 2026. Organisering, tilbud og møtefrekvens kan endres.
+
 Som norsk IT-konsulent har du tilgang til sterke lokale og nordiske KI-miljøer:
 
 ## Norsk regulering og forvaltning
@@ -403,7 +413,7 @@ For arkitekter som leverer KI-løsninger i Norge er dette de viktigste myndighet
 
 - **[Nkom: KI-forordningen og regulering](https://nkom.no/ki/regulering)** - Nkom er nasjonalt koordinerende KI-tilsyn og EUs nasjonale kontaktpunkt i Norge. Hovedsiden samler oversikt over hvem som håndhever hva, plikter for ulike aktører og praktisk veiledning.
 
-- **[Nkom: KI-loven i et nøtteskall](https://nkom.no/ki/i-et-notteskall)** - Kort oversikt over den norske KI-loven og hva den pålegger ulike roller som leverandør, idriftssetter og distributør. Loven gjennomfører EUs KI-forordning i norsk rett.
+- **[Nkom: KI-loven i et nøtteskall](https://nkom.no/ki/i-et-notteskall)** - Kort oversikt over den planlagte norske KI-loven og rollene leverandør, idriftsetter og distributør. Per august 2026 er KI-forordningen ennå ikke gjennomført i norsk rett. Regjeringen har varslet en ny høring etter endringene i AI Omnibus og tar sikte på å fremme loven for Stortinget våren 2027. Se også [regjeringens statusoppdatering](https://www.regjeringen.no/no/aktuelt/tung-vil-sende-ki-loven-med-endringer-pa-horing/id3169693/).
 
 - **[Nkom: Aktørene i KI-forordningen](https://nkom.no/ki/regulering/aktorer)** - Oversikt over rollene leverandør, idriftsetter, importør, distributør og produkttilvirker med tilhørende plikter. Nyttig for å se hvordan arkitekturvalg kan flytte organisasjonen fra én rolle til en annen i verdikjeden, for eksempel fra idriftsetter til leverandør når man finetuner og videreselger en modell.
 
@@ -424,8 +434,6 @@ For arkitekter som leverer KI-løsninger i Norge er dette de viktigste myndighet
 - **[NAIL](https://www.ntnu.edu/ailab) - Norwegian Open AI Lab (NTNU)** - Hub for KI-forskning, utdanning og innovasjon.
 
 - **[Oslo.AI meetups](https://www.meetup.com/oslo-ai/)** - Kvartalsvis networking og praktiske case.
-
-# 
 
 ## Nordiske initiativer
 
